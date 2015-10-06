@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Current Leagues</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="stylesheet" href="css/currentleagues.css"/>
+    <link rel="stylesheet" href="css/currentleagues_resp.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <!--fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,900,100,700,500,300' rel='stylesheet' type='text/css'>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="css/custom.js"></script>
+</head>
+<body style="background-color: #f1f1f1;">
+
+    <header>
+
+        <nav>
+            <div class="logo">
+                <img src="images/wooter_logo.png" alt=""/>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a>
+                            <div class="message_count">
+                                <img src="svg/envelope32.svg" alt=""/>
+                                <span>3</span>
+                            </div>
+                         </a>
+                    </li>
+                    <li><a>David</a></li>
+                    <li><a><img class="nav_profile_img" src="images/profile_image.png" alt=""/></a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+
+        <div class="test profile_options animated">
+            <div class="first">
+                <div class="second animated"><a href="">Dashboard</a></div>
+                <div class="second active animated"><a href="">Your Leagues</a></div>
+                <div class="second animated"><a href="">Management</a></div>
+                <div class="second animated"><a href="">Sales</a></div>
+                <div class="second animated"><a href="">Messages</a></div>
+                <div class="second animated"><a href="">Services</a></div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container cl_container" style="background-color: #ffffff">
+
+        <!--left panel-->
+        <div class="aside">
+            <span class='aside_title'>League Info</span>
+               <ul>
+                   <li><a href="">Basics</a></li>
+                   <li class='active'><a href="">Details</a></li>
+                   <li><a href="">Gallery</a></li>
+               </ul>
+
+            <span class='aside_title'>Registration</span>
+                <ul>
+                    <li><a href=''>Season</a></li>
+                    <li><a href=''>Forms</a></li>
+                    <li><a href=''>Pricing</a></li>
+                </ul>
+        </div>
+
+        <!--right panel-->
+        <div class="main_section">
+
+            <div class="main_section1">
+                <h2>Enter league details</h2>
+                <p>Help prospective players understand how your league functions.</p>
+            </div>
+            <hr>
+
+            <div class='main_section2'>
+                <div>
+                    <h5>About League</h5>
+                    <textarea rows='7' cols='70' placeholder="Write 1-2 paragraphs about your league..."></textarea>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class='dropdown'>
+                <div class='row show-grid' id='league-details'>
+
+                    <div class='col-sm-3'>
+                        <h5># of Teams</h5>
+                        <input type='number'/>
+                    </div>
+
+                    <div class='col-md-3'>
+                        <h5>Players/Team</h5>
+                        <input type='number'/>
+                    </div>
+
+                    <div class='col-md-3'>
+                        <h5># of Games (per Team)</h5>
+                        <input type='number'/>
+                    </div>
+
+                    <div class='col-md-3'>
+                        <h5>Max Players (optional)</h5>
+                        <input type='number'/>
+                    </div>
+
+                </div>
+
+                <div class='row show-grid'>
+                    <div class='col-md-6'>
+                        <h5>Season Structure</h5>
+                        <button class='btn dropdown-toggle' type='button' id='dropdownMenuLeagueSctr' data-toggle='dropdown' aria-haspopup='true' aria-expanded='true' style='min-width: 250px; text-align: left;'>
+                        League Play
+                        <span class='caret' style='position: relative; left: 135px;'></span>
+                        </button>
+                            <ul class='dropdown-menu' aria-labelledby='dropdownmenuLeagueSctr'>
+                                <li><a href='#'>League Play</a></li>
+                            </ul>
+                    </div>
+
+                    <div class='col-md-6'>
+                        <h5>Playoff Scructure</h5>
+                        <button class='btn dropdown-toggle' type='button' id='dropdownMenuPlayoff' data-toggle='dropdown' aria-haspopup='true' aria-expanded='true' style='min-width: 250px; text-align: left;'>
+                        Single game elimniation
+                        <span class='caret' style='position:relative; left: 60px;'></span>
+                        </button>
+                            <ul class='dropdown-menu' aria-labelledby='drpodownMenuPlayoff'>
+                                <li><a href='#'>Single game elimination</a></li>
+                            </ul>
+                    </div>
+                </div>
+
+                <div class='row show-grid'>
+                    <div class='col-md-6'>
+                        <h5>Game Structure</h5>
+                        <button class='btn dropdown-toggle' type='button' id='dropdownMenuLeagueSctr' data-toggle='dropdown' aria-haspopup='true' aria-expanded='true' style='min-width: 250px; text-align: left;'>
+                        Quarters
+                        <span class='caret' style='position: relative; left: 157px;'></span>
+                        </button>
+                            <ul class='dropdown-menu' aria-labelledby='dropdownmenuLeagueSctr'>
+                                <li><a href='#'>Quarters</a></li>
+                            </ul>
+                    </div>
+
+                    <div class='col-sm-3'>
+                        <h5>Game Duration</h5>
+                        <input type='number'/>
+                    </div>
+
+                    <div class='col-sm-3'>
+                        <h5>Time/Period</h5>
+                        <input type='number'/>
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <div class='row show-grid' id='checks'>
+                    <div class='col-md-5' id='features'>
+                        <input type='checkbox'><span>Referees</span></br>
+                        <input type='checkbox'>Stat Tracking</br>
+                        <input type='checkbox'>Commentators/Hype Man/DJ</br>
+                        <input type='checkbox'>Press Attention</br>
+                        <input type='checkbox'>Scouts or Evaluators</br>
+                        <input type='checkbox'>Film Recording/Analysis</br>
+                        <input type='checkbox'>Jerseys</br>
+                        <input type='checkbox'>Equipment</br>
+                        <input type='checkbox'>Prizes</br>
+                    </div>
+
+                    <div class='col-md-6' id='features'>
+                        <input type='checkbox'>All-Star Game</br>
+                        <input type='checkbox'>Contests</br>
+                        <input type='checkbox'>Social Gatherings</br>
+                        <input type='checkbox'>Modified Rules</br>
+                        <input type='checkbox'>Professional/Certified Coaches</br>
+                        <input type='checkbox'>Premier Venue</br>
+                        <input type='checkbox'>PED Testing</br>
+                        <input type='checkbox'>Tournements</br>
+                        <input type='checkbox'>Playoffs</br>
+                    </div>
+
+                    <div>
+                        <button type='button' class='btn' id='createFeature'>
+                            <span>
+                                <img src='images/add_button.png' style='max-width: 20px;'>
+                                Create Feature
+                            </span>
+                        </button>
+                    </div>
+
+                </div>
+
+                <hr/>
+
+                <div id='nav-btns'>
+                    <button type='button' class='btn' style='background-color: white; color: rgb(43, 181, 246)'>
+                        Back
+                    </button>
+                    <button type='button' class='btn' id='next-button'>
+                        Next
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+</html>

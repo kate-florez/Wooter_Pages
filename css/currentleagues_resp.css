@@ -1,0 +1,176 @@
+@media only screen and (min-width : 992px) {
+    .cl_container{
+        width: 100% !important;
+    }
+
+    .first{
+        -webkit-flex-direction: row; /* Safari */
+        flex-direction:         row;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width: 990px) {
+    .cl_container{
+        width: 100% !important;
+    }
+
+    .first{
+        -webkit-flex-direction: row; /* Safari */
+        flex-direction:         row;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 320px) and (max-width:768px) {
+
+    .cl_container {
+        border: none;
+    }
+
+    header{
+        position: relative;
+    }
+
+    nav {
+        height: 50px;
+        border-bottom: 1px solid #dce0e0;
+    }
+
+    nav .menu ul li{
+        font-size: 14px;
+    }
+
+    nav .menu ul li .message_count img{
+        width: 30px;
+        height: 20px;
+        z-index: 1;
+    }
+
+    nav .menu ul li .nav_profile_img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .profile_options{
+        display: none;
+        -webkit-transition-timing-function: linear;
+        -moz-transition-timing-function: linear;
+        -ms-transition-timing-function: linear;
+        -o-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transform: translateX(-10px);
+        -moz-transform: translateX(-10px);
+        -ms-transform: translateX(-10px);
+        -o-transform: translateX(-10px);
+        transform: translateX(-10px);
+        -webkit-transition: transform 0.7s, opacity 0.4s;
+        -moz-transition: transform 0.7s, opacity 0.4s;
+        -ms-transition: transform 0.7s, opacity 0.4s;
+        -o-transition: transform 0.7s, opacity 0.4s;
+        transition: transform 0.7s, opacity 0.4s;
+    }
+
+    .profile_options_show{
+        /*background-color: #ffffff;*/
+        width: 100%;
+        position: absolute;
+        right: 0;
+        display: block;
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
+
+    .first {
+        overflow: auto;
+        -webkit-flex-wrap: nowrap; /* Safari */
+        flex-wrap: nowrap;
+        flex-direction: column;
+        -webkit-flex-direction: column;
+        color: #000000;
+
+    }
+
+    .second {
+        -webkit-flex-shrink: 1;
+        flex-shrink: 1;
+        -webkit-flex-grow: 2;
+        flex-grow: 2;
+        margin: 0 20px;
+        border-bottom: 1px solid rgb(187, 187, 187);
+    }
+
+    .first .second:hover {
+        border-bottom: 3px solid rgb(187, 187, 187);
+    }
+
+    .first .active{
+        background-color: inherit;
+        border-bottom: 1px solid rgb(187, 187, 187);
+    }
+
+    .aside {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    .aside ul {
+        display: -webkit-flex; /* Safari */
+        display: flex;
+        -webkit-flex-wrap: nowrap; /* Safari */
+        flex-wrap:         nowrap;
+        -webkit-justify-content: space-around; /* Safari */
+        justify-content:         space-around;
+        -webkit-flex-direction: row; /* Safari */
+        flex-direction: row;
+        -webkit-align-content: stretch; /* Safari */
+        align-content:         stretch;
+    }
+
+    .aide ul li{
+        -webkit-flex-shrink: 1;
+        flex-shrink: 1;
+        -webkit-flex-grow: 2;
+        flex-grow: 2;
+    }
+
+    .aside ul li a {
+        margin:0;
+        color: #000000;
+    }
+
+    .aside ul li:hover{
+        background-color: #ffffff;
+        border-bottom: 3px solid rgb(237, 239, 237);
+    }
+
+    .aside ul .active{
+        background-color: #ffffff;
+        border-bottom: 3px solid rgb(237, 239, 237);
+    }
+
+    .main_section {
+        width: 100%;
+        padding: 10px;
+        border: none;
+    }
+
+    .main_section_hide{
+        display: none;
+    }
+    .main_section1 {
+        margin-top: 0;
+    }
+
+}
+
+
+
+
+
+

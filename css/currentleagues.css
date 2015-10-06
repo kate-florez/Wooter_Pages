@@ -1,0 +1,531 @@
+* {
+    margin :0px;
+}
+
+html {
+    /*background-color: #f1f1f1;*/
+}
+
+body {
+    min-width: 480px;
+    font-family: 'Roboto', sans-serif !important;
+    height: 100%;
+}
+
+.border{
+    border: 1.042px solid #dce0e0;
+}
+
+.mainbutton{
+    display:inline-block;
+}
+
+.button{
+    height: 33px;
+    background-color: rgb(43, 181, 246);
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    -webkit-flex-wrap: wrap; /* Safari */
+    flex-wrap:         wrap;
+    -webkit-flex-direction: row; /* Safari */
+    flex-direction:         row;
+    -webkit-align-items: center; /* Safari */
+    align-items:         center;
+    cursor: pointer;
+}
+
+.button img{
+    height: 23px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.button span{
+    padding-right: 5px;
+}
+
+.button:hover{
+    background-color: #78caf1;
+}
+
+
+.cl_container{
+    min-width: 480px;
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding :0 !important;
+    background-color: #ffffff;
+    border-left: 1px solid rgb(24, 61, 78);
+    border-right: 1px solid rgb(24, 61, 78);
+    height: 100%;
+}
+
+nav{
+    width: 100%;
+    height :75px;
+    background-color: #ffffff !important;
+    position: relative;
+}
+
+nav .logo{
+    left: 0;
+    position: absolute;               /* 2 */
+    top: 50%;                         /* 3 */
+    transform: translate(0, -50%);
+}
+
+nav .logo img{
+    width: 173px;
+}
+
+nav .menu {
+    right: 12px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+nav .menu a{
+    color: rgb(86, 90, 92);
+}
+nav .menu ul{
+    margin-bottom: 0;  /* overriding bootsrap css*/
+}
+
+nav .menu ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 10px;
+    /*line-height: 1.2;*/
+}
+
+nav .menu ul li .message_count img{
+    width: 50px;
+    height: 30px;
+    z-index: 1;
+
+}
+
+nav .menu ul li .message_count span{
+    transform: translate(-30px,0px);
+}
+
+nav .menu ul li .nav_profile_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid  rgb(189, 189, 189);
+
+}
+
+.profile_options{
+    background-color: rgb(24, 61, 78);
+    /*color: #ffffff;*/
+}
+
+.first{
+    max-width: 1170px;
+    margin: 0 auto;
+    width:60%;
+    /*height: 42px;*/
+    /*flex-direction: row;*/
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    -webkit-flex-wrap: wrap; /* Safari */
+    flex-wrap:         wrap;
+    -webkit-justify-content: space-between; /* Safari */
+    justify-content:         space-between;
+    /*-webkit-align-content: stretch; /!* Safari *!/*/
+    /*align-content:         stretch;*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 16.667px;
+
+}
+
+.first .second{
+    height: 42px;
+    line-height: 42px;
+    /*text-align: center;*/
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+}
+
+.first .second a{
+    font-family: 'Roboto';
+    font-size: 16.667px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.first .second:hover{
+    border-bottom: 3px solid rgb(187, 187, 187);
+}
+
+.first .active{
+    font-weight: 500;
+    border-bottom: 3px solid rgb(187, 187, 187);;
+}
+
+
+.aside{
+    width: 25%;
+    /*max-width: 297px;*/
+    float: left;
+    display: block;
+    min-height: 100%;
+    margin-top: 33px;
+    height: 100%;
+
+}
+
+.aside ul {
+    padding: 0;
+}
+
+.aside ul li{
+    list-style: none;
+    margin-left: 0;
+    height: 34px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.aside ul li a{
+    margin-left:33px;
+    color: #183D4E;
+    text-decoration: none;
+    vertical-align: middle;
+    line-height: 34px;
+    font-family: 'Roboto', sans-serif;
+}
+
+span.aside_title {
+    margin-left: 33px;
+    font-size: 20px;
+    /* Change font to Roboto */
+    color: rgb(205, 205, 205);
+    line-height: 0.673;
+    -moz-transform: matrix(1.63686716132159,0,0,1.55297975842149,0,0);
+    -webkit-transform: matrix(1.63686716132159,0,0,1.55297975842149,0,0);
+    -ms-transform: matrix(1.63686716132159,0,0,1.55297975842149,0,0);
+    position: relative;
+    /* set position relative for window size changes */
+    /* Use percentages for moving objects */
+}
+
+.League_Info {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(205, 205, 205);
+  line-height: 0.673;
+  -moz-transform: matrix( 1.63686716132159,0,0,1.55297975842149,0,0);
+  -webkit-transform: matrix( 1.63686716132159,0,0,1.55297975842149,0,0);
+  -ms-transform: matrix( 1.63686716132159,0,0,1.55297975842149,0,0);
+  position: absolute;
+  left: 1158.913px;
+  top: 334.988px;
+  z-index: 74;
+}
+
+#features input {
+    margin-right: 10px;
+}
+
+.aside ul li:hover{
+   background-color: #f1f1f1;
+}
+
+.aside ul .active{
+    background-color: #f1f1f1;
+    font-weight: 500;
+}
+
+.main_section{
+    float: left;
+    width: 75%;
+    padding-left: 68px;
+    padding-right: 68px;
+    display: block;
+    border-left: 1px solid rgb(24, 61, 78);
+    height: 100%;
+}
+
+.main_section1{
+    margin-top: 33px;
+}
+
+.main_section1 h2{
+    margin: 0;
+    font-weight: 300;
+    color: rgb(104, 104, 104);
+    font-family: 'Roboto', sans-serif;
+}
+
+.main_section1 p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.main_section .main_section2 .edit_button, .main_section .main_section2 .add_button{
+    border-radius: 17px;
+    height: 33px;
+    border: none;
+    color: #ffffff;
+    font-size: 14.658px;
+    font-weight: bolder;
+    margin-left: 10px;
+    letter-spacing: 1.2px;
+}
+
+/* dropdown menus */
+.btn.dropdown-toggle {
+    background-color: white;
+    border: 1px solid rgb(184, 184, 184);
+}
+
+.main_section .main_section2 button img{
+    height: 23px;
+    padding-right: 4px;
+}
+
+.main_section h5 {
+    color: rgb(104,104,104);
+}
+
+.main_section3 h3{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(104, 104, 104);
+}
+
+.main_section3 ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.main_section3 ul li {
+    padding-left: 15px !important;
+}
+
+/* Venue List*/
+.main_section3 ul li#bordered-list {
+    padding: 5px;
+    padding-left: 5px;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /*box-shadow: rgb(10, 5, 5, 0.2);*/
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.25);
+
+}
+
+/* Venue list unbordered */
+.main_section3 ul li#unbordered-list {
+    padding: 7px;
+    border-radius: 20px;
+}
+
+/* Venue Edit button */
+/*#venue-edit {
+    color: rgb(43, 181, 246);
+    margin: 0px;
+    background-color: rgb(245, 245, 245);
+}*/
+
+/* Button Group (Edit, Delete) */
+div.btn-group {
+    position: relative;
+    /*margin-left: 20%;*/
+    left: 157px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 1px solid rgb(245, 245, 245);
+}
+
+/*/ edit button */
+#edit-button {
+    color: rgb(43, 181, 246);
+    background-color: rgb(245, 245, 245);
+    border-radius: 0px !important;
+    border-left: 1px solid rgb(184, 184, 184);
+    border-right: 1px solid rgb(184, 184, 184);
+}
+
+/* delete button*/
+#delete-button {
+    border: none;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    color: rgb(185, 185, 185);
+    background-color: rgb(245, 245, 245);
+    border-left: 1px solid rgb(184, 184, 184);
+    height: 34px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+#add-venue {
+    background-color: rgb(43, 181, 246);
+    color: white;
+    border-radius: 20px;
+    width: 20%;
+    background: linear-gradient(rgb(43, 181, 246), rgb(40, 180, 269));
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+span#add-venue-span {
+    padding: 6px, 3px, 6px, 3px;
+}
+
+div#nav-btns {
+    margin-top: 40px;
+}
+
+#next-button.btn {
+    color: rgb(43, 181, 246);
+    background-color: white;
+    border: 1px solid rgb(43, 181, 246);
+    border-radius: 5px;
+    padding: 6px 40px;
+    float: right;
+}
+
+div#checks {
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+div#features.col-md-6 input {
+    margin-bottom: 10px;
+    padding-bottom: 25px;
+}
+
+div#features.col-md-5 input {
+    margin-bottom: 10px;
+    padding-bottom: 25px;
+}
+
+#createFeature {
+    position: relative;
+    left: 5px;
+    background-color: rgb(43, 181, 246);
+    border-radius: 20px;
+    color: white;
+    padding: 6px 8px 6px 6px;
+}
+
+.main_section3 .leagues{
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.2);
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+    max-width: 733px;
+    width: 100%;
+    min-height: 114px;
+    z-index: 29;
+    margin-bottom: 10px;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    -webkit-flex-wrap: nowrap; /* Safari */
+    flex-wrap:         nowrap;
+    border-radius: 7px;
+}
+
+.main_section3 .leagues .leagues_image img {
+    margin:12px;
+    height:90px;
+    -webkit-flex-grow: 0;
+    flex-grow: 0;
+}
+
+.main_section3 .leagues .leagues_name_section{
+    padding-top: 12px;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.main_section3 .leagues_name_section .league_name{
+    margin-right: 10px;
+    font-size: 18px; /* origin size is 19px*/
+    font-weight: 500;
+    line-height: 0.937;
+    color: rgb(74, 74, 74);
+}
+
+.main_section3 .leagues_name_section .league_season{
+    font-size: 15px;
+    line-height: 2.007;
+}
+
+.main_section3 .league_status{
+    padding-left: 5px;
+    margin:12px;
+    color: rgb(104, 104, 104);
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+}
+
+.main_section3 .league_status img{
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.main_section3 .leagues .leagues_actions{
+    width: 75px;
+    height: inherit;
+    margin-right: 12px;
+    padding-top: 12px;
+    position: relative;
+    -webkit-flex-grow: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.main_section3 .leagues .leagues_actions .edit_button{
+    border-radius: 29px;
+    height: 29px;
+    border: none;
+    background-color: rgb(43, 181, 246);
+    color: #ffffff;
+    font-size: 14.658px;
+    font-weight: 500;
+    width: 75px;
+    letter-spacing: 1.2px;
+}
+
+.main_section3 .leagues .leagues_actions .edit_button img{
+    height: 17px;
+}
+
+.main_section3 .leagues .leagues_actions .delete_button{
+    position: absolute;
+    bottom: 12px;
+    right: 0px;
+    border-radius: 22px;
+    border: none;
+    background-color:  rgb(184, 184, 184);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 75px;
+    height: 29px;
+}
+
+.main_section3 .leagues .leagues_actions .delete_button img{
+    height: 19px;
+}
+
+.League_Info {
+    position: relative;
+}
+
