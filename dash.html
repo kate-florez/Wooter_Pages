@@ -3,10 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <title>Dash Broad</title>
-        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/currentleagues.css"/>
         <link rel="stylesheet" href="css/currentleagues_resp.css"/>
         <link rel="stylesheet" href="css/dash.css"/>
+        <link rel="stylesheet" href="css/animate.css"/>
         <!--fonts-->
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,900,100,700,500,300' rel='stylesheet' type='text/css'>
         <!-- Latest compiled and minified CSS -->
@@ -16,26 +17,39 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
         <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
 
         <!--jQuery-->
         <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="js/custom.js"></script>
     </head>
 <body style="background-color: #ffffff">
+
     <header>
 
         <nav>
+
+            <div class="menu_button">
+
+                    <!--<span class="sr-only">Toggle navigation</span>-->
+                    <span class="icon-bar" style="margin-top: 0"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+            </div>
             <div class="logo">
                 <img src="images/wooter_logo.png" alt=""/>
             </div>
             <div class="menu">
                 <ul>
-                    <li><a>
-                        <div class="message_count">
-                            <img src="images/messages.png" alt=""/>
-                            <span>2</span>
-                        </div>
-                    </a></li>
+                    <li style="animation-delay: 3s">
+                        <a>
+                            <div class="message_count">
+                                <img src="svg/envelope32.svg" alt=""/>
+                                <span>3</span>
+                            </div>
+                        </a>
+                    </li>
                     <li><a>David</a></li>
                     <li><a><img class="nav_profile_img" src="images/profile_image.png" alt=""/></a></li>
                 </ul>
@@ -43,18 +57,19 @@
 
         </nav>
 
-
-        <div class="profile_options">
+        <div class="test profile_options animated">
             <div class="first">
-                <div class="second"><a href="">Dash Board</a></div>
-                <div class="second"><a href="">Your Leagues</a></div>
-                <div class="second"><a href="">Management</a></div>
-                <div class="second"><a href="">Sales</a></div>
-                <div class="second"><a href="">Messages</a></div>
-                <div class="second"><a href="">Services</a></div>
+                <div class="second active animated"><a href="">Dashboard</a></div>
+                <div class="second animated"><a href="">Your Leagues</a></div>
+                <div class="second animated"><a href="">Management</a></div>
+                <div class="second animated"><a href="">Sales</a></div>
+                <div class="second animated"><a href="">Messages</a></div>
+                <div class="second animated"><a href="">Services</a></div>
             </div>
         </div>
+
     </header>
+
     <div class="container cl_container" style="border: none">
 
         <!--start of left panel div-->
@@ -86,20 +101,20 @@
                         <div class="league_name"><span>4 * 4 Basketball League</span></div>
                         <div class="leagues_actions">
 
-                            <button class="manage_button"><img src="images/clock.png" alt="" style="height: 18px;padding-right: 4px;padding-bottom: 1px;color:#f1f1f1"/>Manage</button>
-                            <button class="edit_button"><img src="images/edit_button_blue.png" alt="" style="height: 16px;padding-right: 4px;padding-bottom: 1px;margin-top: -4px"/>Edit</button>
+                            <button class="manage_button"><img src="images/clock.png" alt="" style="height: 18px;padding-right: 8px;padding-bottom: 1px;color:#f1f1f1"/>Manage</button>
+                            <button class="edit_button"><img src="images/edit_button_blue.png" alt="" style="height: 15px;padding-right: 8px;padding-bottom: 1px;margin-top: -4px"/>Edit</button>
                         </div>
                     </div>
                 </div>
                 <div class="leagues border">
                     <div class="leagues_image">
-                        <img src="images/league_img.png" alt=""/>
+                        <img src="svg/mail3.svg" alt=""/>
                     </div>
                     <div class="leagues_name">
                         <div class="league_name"><span>4 * 4 Basketball League sjhdgfjs hello hello jsdbfjsdbf ajsbd</span></div>
                         <div class="leagues_actions">
                             <button class="manage_button"><img src="images/clock.png" alt="" style="height: 18px;padding-right: 4px;padding-bottom: 1px;color:#f1f1f1"/>Manage</button>
-                            <button class="edit_button"><img src="images/edit_button_blue.png" alt="" style="height: 18px;padding-right: 4px;padding-bottom: 1px;margin-top: -4px"/>Edit</button>
+                            <button class="edit_button"><img src="images/edit_button_blue.png" alt="" style="height: 18px;padding-right: 4px;padding-bottom: 1px;margin-top: -4px""/>Edit</button>
                         </div>
                     </div>
                 </div>
@@ -108,7 +123,9 @@
                     <div><a href="">Create League</a></div>
                     <div><a href="">See All Leagues</a></div>
                 </div>
-            </div>
+
+            </div> <!--End of profile_leagues div-->
+
         </div>
 
         <!--End of left panel div-->
@@ -116,7 +133,7 @@
         <div class="right_panel">
 
             <div class="notifications_panel border">
-                <span>Notifications</span>
+                <span class="panel_name">Notifications</span>
                 <div class="notifications_list border">
                     <div>
                         <p>Please tell us how to pay you</p>
@@ -126,31 +143,108 @@
                         <p>Please tell us how to pay you</p>
                     </div>
                 </div>
-            </div>
+            </div> <!--end of notifications panel-->
+
             <div class="upcoming_events border">
-                <span>Upcoming Events</span>
+                <span class="panel_name">Upcoming Events</span>
+
                 <div class="upcoming_events_list border">
                     <div class="event_dates">
-                        <p class="event_day">Today</p>
+                        <span class="event_day">Today</span>
                         <div class="month border">
-                            <p class="event_date">26</p>
-                            <p class="event_month">Sept</p>
+                            <div class="event_date">26</div>
+                            <div class="event_month">Sept</div>
                         </div>
                     </div>
                     <div class="all_events">
-                        <div>
-                            <p>Please tell us how to pay you</p>
-                            <hr/>
-                            <p>Please tell us how to pay you</p>
-                            <hr/>
-                            <p>Please tell us how to pay you</p>
+                            <!-- Default panel contents -->
+                        <div class="event_name">Panel heading</div>
+
+                        <div class="table-responsive list_of_events">
+                            <table class="table">
+                                <tr>
+                                    <td>12:00 PM</td>
+                                    <td>4 * 4</td>
+                                    <td>New york VS New Jersye</td>
+                                </tr>
+                                <tr>
+                                    <td>12:00 PM</td>
+                                    <td>NewyorkVSNew Jersye</td>
+                                    <td>4 * 4</td>
+                                </tr>
+                                <tr>
+                                    <td>12:00 PM</td>
+                                    <td>NewyorkVSNew Jersye</td>
+                                    <td>4 * 4</td>
+                                </tr>
+                            </table>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
+                </div> <!--end of upcoming events list div-->
 
-        <!--end of right panel-->
+
+                <div class="upcoming_events_list border">
+                    <div class="event_dates">
+                        <span class="event_day">Today</span>
+                        <div class="month border">
+                            <div class="event_date">26</div>
+                            <div class="event_month">Sept</div>
+                        </div>
+                    </div>
+                    <div class="all_events">
+                        <!-- Default panel contents -->
+                        <div class="event_name">Panel heading</div>
+
+                        <div class="table-responsive list_of_events">
+                            <table class="table">
+                                <tr>
+                                    <td class="event_time">12:00 PM</td>
+                                    <td>4 * 4</td>
+                                    <td>New york VS New Jersye</td>
+                                </tr>
+                                <tr>
+                                    <td>12:00 PM</td>
+                                    <td>NewyorkVSNew Jersye</td>
+                                    <td>4 * 4</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div> <!--end of upcoming events list div-->
+
+                <div class="upcoming_events_list border">
+                    <div class="event_dates">
+                        <span class="event_day">Today</span>
+                        <div class="month border">
+                            <div class="event_date">26</div>
+                            <div class="event_month">Sept</div>
+                        </div>
+                    </div>
+                    <div class="all_events">
+                        <!-- Default panel contents -->
+                        <div class="event_name">Panel heading</div>
+
+                        <div class="table-responsive list_of_events">
+                            <table class="table">
+                                <tr>
+                                    <td>12:00 PM</td>
+                                    <td>4 * 4</td>
+                                    <td>New york VS New Jersye</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div> <!--end of upcoming events list div-->
+
+                <div class="all_upcoming_events">
+                    <div><a href="">See Full Schedule</a></div>
+                </div>
+
+            </div>   <!--end of upcoming events div-->
+
+        </div>  <!--end of right panel-->
+
+
     </div>
 </body>
 </html>
