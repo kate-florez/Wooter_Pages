@@ -4,38 +4,41 @@
 
 $(document).ready(function(){
 
-    $(".test1").click(function(){
-        var arra= $( ".profile_options" ).attr('class').split(" ");
-        var x=arra.length;
-        for (var j= 0;j< x; j++){
-            arra[j];
-            if(arra[j]=="profile_options_show"){
-                console.log(arra[j]);
-                $( ".profile_options" ).removeClass( "profile_options_show" );
-                $( ".profile_options" ).removeClass( "slideInLeft" );
-            }
-            else{
-                console.log("no");
-                $( ".profile_options" ).addClass( "profile_options_show" );
-                //$( ".profile_options" ).addClass( "slideInLeft" );
-            }
+    $(".nav_profile_img").click(function(){
+        $( ".hamburger_menu_list" ).removeClass( "profile_options_show" );
+        $( ".hamburger_menu_list" ).removeClass( "slideInLeft" );
+        $( ".hamburger_menu_list .first .second" ).removeClass( "fadeInUp" );
+        $( ".profile_options1" ).toggleClass( "profile_options_show" );
+        $( ".profile_options1" ).toggleClass( "slideInLeft" );
+        $( ".profile_options1 .first .second" ).toggleClass( "fadeInUp" );
 
-        }
-
-
-        $( ".first .second" ).toggleClass( "fadeInUp" );
-
-        var count = $(".first .second").length;
+        var count = $(".profile_options1 .first .second").length;
         for (var i=1; i<=count;i++){
             var a=(i/20+"s");
 
-            $( ".first .second:nth-child("+ i +")" ).css("animation-delay",a);
+            $( ".profile_options1 .first .second:nth-child("+ i +")" ).css("animation-delay",a);
 
         }
 
+    });
 
+    $(".hamburger_menu_button").click(function(){
+        $( ".profile_options1" ).removeClass("profile_options_show"  );
+        $( ".profile_options1" ).removeClass( "slideInLeft" );
+        $( ".profile_options1 .first .second" ).removeClass( "fadeInUp" );
 
-        console.log(arra);
+        $( ".hamburger_menu_list" ).toggleClass( "profile_options_show" );
+        $( ".hamburger_menu_list" ).toggleClass( "slideInLeft" );
+        $( ".hamburger_menu_list .first .second" ).toggleClass( "fadeInUp" );
+
+        var count1 = $(".hamburger_menu_list .first .second").length;
+        for (var j=1; j<=count1;j++){
+            var b=(j/20+"s");
+
+            $( ".hamburger_menu_list .first .second:nth-child("+ j +")" ).css("animation-delay",b);
+
+        }
+
     });
 
 });

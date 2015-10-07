@@ -31,12 +31,16 @@
         position: relative;
     }
 
+    .hamburger_menu_list{
+        display: inline;
+    }
+
     nav {
         height: 50px;
         border-bottom: 1px solid #dce0e0;
     }
 
-    nav .hamburger_menu{
+    nav .hamburger_menu_button{
         display: inline;
     }
 
