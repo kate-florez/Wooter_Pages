@@ -1,6 +1,3 @@
-/**
- * Created by TDR on 10/2/15.
- */
 
 $(document).ready(function(){
 
@@ -8,6 +5,7 @@ $(document).ready(function(){
         $( ".hamburger_menu_list" ).removeClass( "profile_options_show" );
         $( ".hamburger_menu_list" ).removeClass( "slideInLeft" );
         $( ".hamburger_menu_list .first .second" ).removeClass( "fadeInUp" );
+
         $( ".profile_options1" ).toggleClass( "profile_options_show" );
         $( ".profile_options1" ).toggleClass( "slideInLeft" );
         $( ".profile_options1 .first .second" ).toggleClass( "fadeInUp" );
