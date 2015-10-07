@@ -1,0 +1,162 @@
+.clear{
+	clear: both;
+}
+
+.hr_thick{
+	border: 1px solid #f2f2f2;
+}
+
+.container{
+	background-color:#fff;
+	font-family: 'Robotolight', sans-serif;
+	padding: 40px 40px!important;
+}
+
+.hide{
+	display: none;
+}
+
+
+.drop_bass{
+	width: 100%;
+	padding: 5px 0px 5px 15px;
+}
+
+
+.account_block{
+	font-weight: 300;
+
+}
+
+.account_title{
+	font-size: 30px;
+}
+
+.account_nav ul{
+	padding: 0px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.account_nav ul li{
+	text-decoration: none;
+	display: inline-block;
+	width: 24.5%;
+	text-align: center;
+	font-size: 17px;
+}
+
+.acc_tabs{
+	text-decoration: none;
+	color: black;
+	text-decoration: none!important;
+	color: black!important;
+}
+
+.acc_tabs:hover{
+	border-bottom: 3px solid #183d4e;
+}
+
+.activated{
+	border-bottom: 3px solid #183d4e;
+}
+
+.payment_p{
+	padding: 0px!important;
+	font-size: 17px;
+}
+
+.button_pos{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.add_button{
+	border: 1px solid #52C2F8;
+	background-color: #52C2F8;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	line-height: 1.2;
+}
+
+.add_button:hover{
+	color: white;
+	text-decoration: none;	
+}
+
+.add_button img{
+	width: 30px;
+	margin-right: 10px;
+}
+
+
+.spacing{
+	padding: 20px 0px;
+}
+
+.spacing_tab1{
+	padding: 20px 0px 30px;
+}
+
+
+.table_borders{
+	border-top: 2px solid #f2f2f2;
+	border-bottom: 2px solid #f2f2f2;
+}
+
+.table_borders_rows{
+	border-bottom: 2px solid #f2f2f2;
+}
+
+.table_borders_rows td{
+	padding: 10px 0px;
+	width: 23%
+}
+
+.table_borders th{
+	padding: 10px 0px;
+	width: 23%
+}
+
+.action_width{
+	width: 5%!important;
+}
+
+.small_star{
+	width: 20px;
+	padding-right: 5px;
+	margin-top: -5px
+}
+
+
+.transaction_table_borders{
+	border-top: 2px solid #f2f2f2;
+	border-bottom: 2px solid #f2f2f2;
+}
+
+.transaction_table_borders_rows{
+	border-bottom: 2px solid #f2f2f2;
+}
+
+.transaction_table_borders_rows td{
+	padding: 10px 0px;
+	width: 18%;
+}
+
+.transaction_table_borders th{
+	padding: 10px 0px;
+	width: 18%
+}
+
+.transaction_action_width{
+	width: 8%!important;
+	text-align: right;
+}
+
+.transaction_action_width2{
+	width: 12%!important;
+	text-align: right;
+}
