@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Current Leagues</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="stylesheet" href="css/currentleagues.css"/>
+    <link rel="stylesheet" href="css/currentleagues_resp.css"/>
+
+    <!--fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,900,100,700,500,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="fonts/roboto_light_macroman/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="fonts/roboto_thin_macroman/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="fonts/roboto_regular_macroman/stylesheet.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/payment_methods.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/account.js"></script>
+</head>
+<body style="background-color: #f1f1f1">
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/wooter_logo.png" alt=""/>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a>
+                            <div class="message_count">
+                                <img src="svg/envelope32.svg" alt=""/>
+                                <span>3</span>
+                            </div>
+                         </a>
+                    </li>
+                    <li><a>David</a></li>
+                    <li><a><img class="nav_profile_img" src="images/profile_image.png" alt=""/></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="test profile_options animated">
+            <div class="first">
+                <div class="second animated"><a href="">Dashboard</a></div>
+                <div class="second animated"><a href="">Your Leagues</a></div>
+                <div class="second animated"><a href="">Management</a></div>
+                <div class="second animated active"><a href="">Account</a></div>
+                <div class="second animated"><a href="">Messages</a></div>
+                <div class="second animated"><a href="">Services</a></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="container">
+
+        <div class='account_block'>
+
+            <p class='account_title'>Your Account</p>
+            <p class='account_subtitle'>View transactions, edit payout preferences and more.</p>
+
+            <div class='account_nav'>
+                <hr class='hr_thick'>
+                    <ul>
+                        <li><a class='acc_tabs at1 animated activated' href="#">Transaction History</a></li>
+                        <li><a class='acc_tabs at2 animated' href="#">Payout Preferences</a></li>
+                        <li><a class='acc_tabs at3 animated' href="#">Payment Methods</a></li>
+                        <li><a class='acc_tabs at4 animated' href="#">Settings</a></li>
+                    </ul>
+                <hr class='hr_thick'>
+            </div>
+
+        </div>
+
+
+
+
+        <section class='tab_1'>
+
+            <div class='spacing_tab1'>
+                <div class="col-md-4">
+                    <select class='drop_bass'>
+                      <option value="" disabled selected>All Leagues</option>
+                      <option value="">4v4 Basketball League</option>
+                    </select>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                    <select class='drop_bass'>
+                      <option value="" disabled selected>From:</option>
+                      <option value="">January</option>
+                      <option value="">February</option>
+                      <option value="">March</option>
+                      <option value="">April</option>
+                      <option value="">June</option>
+                      <option value="">July</option>
+                      <option value="">August</option>
+                      <option value="">September</option>
+                      <option value="">October</option>
+                      <option value="">November</option>
+                      <option value="">December</option>
+                    </select>
+                </div>                
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                    <select class='drop_bass'>
+                      <option value="" disabled selected>To:</option>
+                      <option value="">January</option>
+                      <option value="">February</option>
+                      <option value="">March</option>
+                      <option value="">April</option>
+                      <option value="">June</option>
+                      <option value="">July</option>
+                      <option value="">August</option>
+                      <option value="">September</option>
+                      <option value="">October</option>
+                      <option value="">November</option>
+                      <option value="">December</option>
+                    </select>
+                </div>
+                <div class='clear'></div>
+            </div>
+
+            <div>
+                <table class="col-md-12">
+                    <tbody>
+                        <tr class='transaction_table_borders'>
+                            <th>Customer</th>
+                            <th>League</th>
+                            <th>Offer</th>
+                            <th>Additional<br>Players</th>
+                            <th class='transaction_action_width'>Form<br>Answers</th>
+                            <th class='transaction_action_width'>Status</th>
+                            <th class='transaction_action_width2'>Action</th>
+                        </tr>     
+                        <tr class='transaction_table_borders_rows'>
+                            <td>Michael Isakov</td>
+                            <td>4v4 Basketball League</td>
+                            <td>Returning Team</td>
+                            <td>David Kalyman<br>Alban Toci<br>Alexander Aleksandrovski</td>
+                            <td class='transaction_action_width'><a class='' href=''>View</td>    
+                            <td class='transaction_action_width'>Paid</td>                        
+                            <td class='transaction_action_width2'><a href="">Manage Team</a><br><a href="">Full Details</a></td>
+                        </tr>     
+                        <tr class='transaction_table_borders_rows'>
+                            <td>Michael Isakov</td>
+                            <td>4v4 Basketball League</td>
+                            <td>Returning Team</td>
+                            <td>David Kalyman<br>Alban Toci<br>Alexander Aleksandrovski</td>
+                            <td class='transaction_action_width'><a class='' href=''>None</td>
+                            <td class='transaction_action_width'>Paid</td>                        
+                            <td class='transaction_action_width2'><a href="">Manage Team</a><br><a href="">Full Details</a></td>
+                        </tr>    
+                        <tr class='transaction_table_borders_rows'>
+                            <td>Michael Isakov</td>
+                            <td>4v4 Basketball League</td>
+                            <td>Returning Team</td>
+                            <td>None</td>
+                            <td class='transaction_action_width'><a class='' href=''>View</td>
+                            <td class='transaction_action_width'>Paid</td>                        
+                            <td class='transaction_action_width2'><a href="">Manage Team</a><br><a href="">Full Details</a></td>
+                        </tr>         
+                    </tbody>    
+                </table>
+            </div>  
+        </section>
+
+
+        <section class='tab_2 hide'>
+
+            <div class='spacing'>
+                <p class="col-md-7 payment_p">When you receive a payment for an activity sold, we call that payment to you a "payout". Our secure payment system supports several payout methods (Direct deposite, PayPal) which can be setup and edited here.</p>
+
+                <div class="col-md-5">
+                    <div class='button_pos'>                
+                        <a class='add_button' href=""><img src="images/dollar_sign.png">Add Payout Preference</a>
+                    </div>
+                </div>
+
+                <div class='clear'></div>
+            </div>
+
+            <div>
+                <table class="col-md-12">
+                    <tbody>
+                        <tr class='table_borders'>
+                            <th>Method</th>
+                            <th>Last Payout</th>
+                            <th>Details</th>
+                            <th>Status</th>
+                            <th class='action_width'>Action</th>
+                        </tr>     
+                        <tr class='table_borders_rows'>
+                            <td>PayPal</td>
+                            <td>Sept. 23rd, 2015</td>
+                            <td>Dave@wooter.co</td>
+                            <td><img class='small_star' src="images/stars.png">Preferred</td>
+                            <td class='action_width'><a href="">Edit</a><br><a href="">Delete</a></td>
+                        </tr>     
+                        <tr class='table_borders_rows'>
+                            <td>VISA (xxxx-xxxx-xxxx-1738)</td>
+                            <td>Dec 10th, 2014</td>
+                            <td>Dave Kleyman <br> 14 Bradley Ave. <br> Staten Island, NY 10314</td>
+                            <td>Not In Use</td>
+                            <td class='action_width'><a href="">Edit</a><br><a href="">Delete</a></td>
+                        </tr>         
+                    </tbody>    
+                </table>
+            </div>  
+
+        </section>
+
+
+
+
+        <section class='tab_3 hide'>
+
+            <div class='spacing'>
+                <p class="col-md-7 payment_p">When you receive a payment for an activity sold, we call that payment to you a "payout". Our secure payment system supports several payout methods (Direct deposite, PayPal) which can be setup and edited here.</p>
+
+                <div class="col-md-5">
+                    <div class='button_pos'>                
+                        <a class='add_button' href=""><img src="images/dollar_sign.png">Add Payout Method</a>
+                    </div>
+                </div>
+
+                <div class='clear'></div>
+            </div>
+
+            <div>
+                <table class="col-md-12">
+                    <tbody>
+                        <tr class='table_borders'>
+                            <th>Method</th>
+                            <th>Last Payout</th>
+                            <th>Details</th>
+                            <th>Status</th>
+                            <th class='action_width'>Action</th>
+                        </tr>     
+                        <tr class='table_borders_rows'>
+                            <td>PayPal</td>
+                            <td>Sept. 23rd, 2015</td>
+                            <td>Dave@wooter.co</td>
+                            <td><img class='small_star' src="images/stars.png">Preferred</td>
+                            <td class='action_width'><a href="">Edit</a><br><a href="">Delete</a></td>
+                        </tr>     
+                        <tr class='table_borders_rows'>
+                            <td>VISA (xxxx-xxxx-xxxx-1738)</td>
+                            <td>Dec 10th, 2014</td>
+                            <td>Dave Kleyman <br> 14 Bradley Ave. <br> Staten Island, NY 10314</td>
+                            <td>Not In Use</td>
+                            <td class='action_width'><a href="">Edit</a><br><a href="">Delete</a></td>
+                        </tr>         
+                    </tbody>    
+                </table>
+            </div>  
+
+        </section>
+
+
+
+
+
+
+
+    </section>
+
+
+
+</body>
+</html>
