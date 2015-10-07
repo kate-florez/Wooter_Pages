@@ -256,6 +256,20 @@ nav .menu ul li .nav_profile_img{
     font-weight: 500;
 }
 
+span.aside_title {
+    margin-left: 33px;
+    font-size: 20px;
+    /* Change font to Roboto */
+    color: rgb(205, 205, 205);
+    line-height: 0.673;
+    -moz-transform: matrix(1.63686716132159,0,0,1.55297975842149,0,0);
+    -webkit-transform: matrix(1.63686716132159,0,0,1.55297975842149,0,0);
+    -ms-transform: matrix(1.63686716132159,0,0,1.55297975842149,0,0);
+    position: relative;
+    /* set position relative for window size changes */
+    /* Use percentages for moving objects */
+}
+
 .main_section{
     float: left;
     width: 75%;
