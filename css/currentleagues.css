@@ -378,7 +378,7 @@ span.aside_title {
 }
 
 .main_section3 .leagues .leagues_actions{
-    width: 75px;
+    /*width: 75px;*/
     height: inherit;
     margin-right: 12px;
     padding-top: 12px;

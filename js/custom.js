@@ -7,7 +7,7 @@ $(document).ready(function(){
         $( ".hamburger_menu_list .first .second" ).removeClass( "fadeInUp" );
 
         $( ".profile_options1" ).toggleClass( "profile_options_show" );
-        $( ".profile_options1" ).toggleClass( "slideInLeft" );
+        $( ".profile_options1" ).toggleClass( "slideInRight" );
         $( ".profile_options1 .first .second" ).toggleClass( "fadeInUp" );
 
         var count = $(".profile_options1 .first .second").length;
@@ -22,7 +22,7 @@ $(document).ready(function(){
 
     $(".hamburger_menu_button").click(function(){
         $( ".profile_options1" ).removeClass("profile_options_show"  );
-        $( ".profile_options1" ).removeClass( "slideInLeft" );
+        $( ".profile_options1" ).removeClass( "slideInRight" );
         $( ".profile_options1 .first .second" ).removeClass( "fadeInUp" );
 
         $( ".hamburger_menu_list" ).toggleClass( "profile_options_show" );
