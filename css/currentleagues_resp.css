@@ -36,19 +36,17 @@
         border-bottom: 1px solid #dce0e0;
     }
 
-    nav .test{
-       display: block;
+    nav .hamburger_menu{
+        display: inline;
     }
 
-    header nav .wooter_logo{
+    nav .wooter_logo{
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
         text-align: center;
+        margin-left: 0;
     }
 
-    header nav .wooter_logo img{
+    nav .wooter_logo img{
         height: 20px;
         width: 100px;
     }
@@ -75,21 +73,6 @@
 
     .profile_options{
         display: none;
-        -webkit-transition-timing-function: linear;
-        -moz-transition-timing-function: linear;
-        -ms-transition-timing-function: linear;
-        -o-transition-timing-function: linear;
-        transition-timing-function: linear;
-        -webkit-transform: translateX(-10px);
-        -moz-transform: translateX(-10px);
-        -ms-transform: translateX(-10px);
-        -o-transform: translateX(-10px);
-        transform: translateX(-10px);
-        -webkit-transition: transform 0.7s, opacity 0.4s;
-        -moz-transition: transform 0.7s, opacity 0.4s;
-        -ms-transition: transform 0.7s, opacity 0.4s;
-        -o-transition: transform 0.7s, opacity 0.4s;
-        transition: transform 0.7s, opacity 0.4s;
     }
 
     .profile_options_show{

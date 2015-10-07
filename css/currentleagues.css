@@ -66,17 +66,22 @@ nav{
     position: relative;
 }
 
-nav .test{
+nav .hamburger_menu{
+    display: none;
+    height: calc(50px - 30px);
     width: 30px;
     left: 15px;
-    /*height: 75px;*/
-
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
+    z-index: 1;
+    cursor: pointer;
+}
+nav .hamburger_menu span:nth-child(1){
+    margin-top: 0 !important;
 }
 
-nav .test div .icon-bar{
+nav .hamburger_menu .icon-bar{
     width: inherit;
     height: 3px;
     margin-top: 5px;
@@ -86,7 +91,7 @@ nav .test div .icon-bar{
 }
 
 nav .wooter_logo{
-    left: 15px;
+    margin-left: 15px;
     position: absolute;               /* 2 */
     top: 50%;                         /* 3 */
     transform: translate(0, -50%);
