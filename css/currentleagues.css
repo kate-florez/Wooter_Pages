@@ -48,6 +48,15 @@ body {
     background-color: #03A9F4;
 }
 
+.hamburger_menu_list{
+    display: none;
+}
+
+.hamburger_menu_list ul{
+   display: inline;
+    list-style: none;
+}
+
 .cl_container{
     min-width: 480px;
     max-width: 1170px;
@@ -66,7 +75,7 @@ nav{
     position: relative;
 }
 
-nav .hamburger_menu{
+nav .hamburger_menu_button{
     display: none;
     height: calc(50px - 30px);
     width: 30px;
@@ -77,11 +86,12 @@ nav .hamburger_menu{
     z-index: 1;
     cursor: pointer;
 }
-nav .hamburger_menu span:nth-child(1){
+
+nav .hamburger_menu_button span:nth-child(1){
     margin-top: 0 !important;
 }
 
-nav .hamburger_menu .icon-bar{
+nav .hamburger_menu_button .icon-bar{
     width: inherit;
     height: 3px;
     margin-top: 5px;
