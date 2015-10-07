@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/currentleagues.css"/>
     <link rel="stylesheet" href="css/currentleagues_resp.css"/>
     <link rel="stylesheet" href="css/animate.css"/>
+    <link rel='stylesheet' href='css/basics.css'>
+    <link rel='stylesheet' href='css/details.css'>
     <!--fonts-->
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,900,100,700,500,300' rel='stylesheet' type='text/css'>
     <!-- Latest compiled and minified CSS -->
@@ -91,39 +93,40 @@
             <div class='main_section2'>
                 <div>
                     <h5>About League</h5>
-                    <textarea rows='7' cols='70' placeholder="Write 1-2 paragraphs about your league..."></textarea>
+                    <textarea rows='7' cols='70' placeholder="Write 1-2 paragraphs about your league..." id='about-league'></textarea>
                 </div>
             </div>
 
             <hr>
 
-            <div class='dropdown'>
-                <div class='row show-grid' id='league-details'>
+            <div id='league-details'>
+                <div class='row show-grid' id='player-team-details'>
 
-                    <div class='col-sm-3'>
+                    <div class='col-lg-3'>
                         <h5># of Teams</h5>
-                        <input type='number'/>
+                        <input type='number' class='form-control'>
                     </div>
 
-                    <div class='col-md-3'>
+                    <div class='col-lg-3'>
                         <h5>Players/Team</h5>
-                        <input type='number'/>
+                            <input type='number' class='form-control'>
                     </div>
 
-                    <div class='col-md-3'>
+                    <div class='col-lg-3'>
                         <h5># of Games (per Team)</h5>
-                        <input type='number'/>
+                            <input type='number' class='form-control'>
                     </div>
 
-                    <div class='col-md-3'>
+                    <div class='col-lg-3'>
                         <h5>Max Players (optional)</h5>
-                        <input type='number'/>
+                            <input type='number' class='form-control'>
                     </div>
-
                 </div>
 
+
+
                 <div class='row show-grid'>
-                    <div class='col-md-6'>
+                    <div class='col-lg-6'>
                         <h5>Season Structure</h5>
                         <button class='btn dropdown-toggle' type='button' id='dropdownMenuLeagueSctr' data-toggle='dropdown' aria-haspopup='true' aria-expanded='true' style='min-width: 250px; text-align: left;'>
                         League Play
@@ -134,10 +137,10 @@
                             </ul>
                     </div>
 
-                    <div class='col-md-6'>
+                    <div class='col-lg-6'>
                         <h5>Playoff Scructure</h5>
                         <button class='btn dropdown-toggle' type='button' id='dropdownMenuPlayoff' data-toggle='dropdown' aria-haspopup='true' aria-expanded='true' style='min-width: 250px; text-align: left;'>
-                        Single game elimniation
+                        Single game elimination
                         <span class='caret' style='position:relative; left: 60px;'></span>
                         </button>
                             <ul class='dropdown-menu' aria-labelledby='drpodownMenuPlayoff'>
@@ -147,7 +150,7 @@
                 </div>
 
                 <div class='row show-grid'>
-                    <div class='col-md-6'>
+                    <div class='col-lg-6'>
                         <h5>Game Structure</h5>
                         <button class='btn dropdown-toggle' type='button' id='dropdownMenuLeagueSctr' data-toggle='dropdown' aria-haspopup='true' aria-expanded='true' style='min-width: 250px; text-align: left;'>
                         Quarters
@@ -158,22 +161,21 @@
                             </ul>
                     </div>
 
-                    <div class='col-sm-3'>
+                    <div class='col-lg-3'>
                         <h5>Game Duration</h5>
-                        <input type='number'/>
+                        <input type='number' class='form-control'/>
                     </div>
 
-                    <div class='col-sm-3'>
+                    <div class='col-lg-3'>
                         <h5>Time/Period</h5>
-                        <input type='number'/>
+                        <input type='number' class='form-control'/>
                     </div>
-
                 </div>
 
                 <hr>
 
                 <div class='row show-grid' id='checks'>
-                    <div class='col-md-5' id='features'>
+                    <div class='col-lg-5' id='features'>
                         <input type='checkbox'><span>Referees</span></br>
                         <input type='checkbox'>Stat Tracking</br>
                         <input type='checkbox'>Commentators/Hype Man/DJ</br>
@@ -185,7 +187,7 @@
                         <input type='checkbox'>Prizes</br>
                     </div>
 
-                    <div class='col-md-6' id='features'>
+                    <div class='col-lg-6' id='features'>
                         <input type='checkbox'>All-Star Game</br>
                         <input type='checkbox'>Contests</br>
                         <input type='checkbox'>Social Gatherings</br>
@@ -220,7 +222,6 @@
                 </div>
 
             </div>
-
         </div>
     </div>
 
