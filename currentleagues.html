@@ -2,14 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <title>Current Leagues</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="css/currentleagues.css"/>
     <link rel="stylesheet" href="css/currentleagues_resp.css"/>
+
     <link rel="stylesheet" href="css/animate.css"/>
-    <!--<link rel="stylesheet" href="css/mobile_menu.css"/>-->
+
     <!--fonts-->
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,900,100,700,500,300' rel='stylesheet' type='text/css'>
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
@@ -17,14 +21,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--custom javascript files-->
     <script src="js/custom.js"></script>
 </head>
 <body style="background-color: #f1f1f1">
 
     <header>
-
         <nav>
 
             <div class="hamburger_menu_button">
@@ -48,12 +53,11 @@
                          </a>
                     </li>
                     <li><a>David</a></li>
-                    <!--<li><a><img class="nav_profile_img" src="images/profile_image.png" alt=""/></a></li>-->
+                    <li><a><img class="nav_profile_img" src="images/profile_image.png" alt=""/></a></li>
                 </ul>
             </div>
 
         </nav>
-
 
         <div class="profile_options profile_options1 animated">
             <div class="first">
@@ -113,84 +117,208 @@
         <!--left panel-->
         <div class="aside">
            <ul>
-               <li class="active"><a href="">Current Leagues</a></li>
-               <li><a href="">Past Leagues</a></li>
-               <li><a href="">Archives</a></li>
+               <li class="active"><a href="#current_leagues" aria-controls="current_leagues" role="tab" data-toggle="tab">Current Leagues</a></li>
+               <li><a href="#past_leagues" aria-controls="past_leagues" role="tab" data-toggle="tab">Past Leagues</a></li>
+               <li><a href="#archives" aria-controls="archives" role="tab" data-toggle="tab">Archives</a></li>
            </ul>
         </div>
 
         <!--right panel-->
-        <div class="main_section">
+        <div class="main_section tab-content" >
+            <div class="tab-pane active" role="tabpanel" id="current_leagues">
+                <div class="main_section1">
+                    <h2>Your Leagues</h2>
+                    <p>This is where you can add and edit your leagues</p>
+                </div>
+                <hr>
 
-            <div class="main_section1">
-                <h2>Your Leagues</h2>
-                <p>This is where you can add and edit your leagues</p>
+                <div class="main_section2">
+                    <div class="mainbutton">
+                        <div class="button add_button"><img src="images/add139.png" alt=""><span>Create New Leagues</span></div>
+                    </div>
+                    <div class="mainbutton">
+                        <div class="button edit_button"><img src="images/arrow138.png" alt=""><span>Re-New League</span></div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="main_section3">
+                    <h3>Current Leagues</h3>
+
+                    <div class="leagues border">
+                        <div class="leagues_image">
+                            <img src="images/league_img.png" alt=""/>
+                        </div>
+
+                        <div class="leagues_name_section">
+                            <div class="league_name">Basket Ball League Basket Ball League Basket Ball League</div>
+                            <div class="league_season">Fall 2015</div>
+                        </div>
+
+                        <div class="league_status"><img src="images/green.png" alt="" style="height: 10px; width:10px"/><span class="status_image">5 Steps to list</span></div>
+
+                        <div class="leagues_actions">
+                            <div class="mainbutton">
+                                <div class="button edit_button"><img src="images/edit.png" alt=""><span>Edit</span></div>
+                            </div>
+                            <div class="mainbutton">
+                                <div class="button delete_button"><img src="images/delete.png" alt=""><span>Delete</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="leagues border">
+                        <div class="leagues_image">
+                            <img src="images/league_img.png" alt=""/>
+                        </div>
+
+                        <div class="leagues_name_section">
+                            <div class="league_name">Basketertertertertertert</div>
+                            <div class="league_season">Fall 2015</div>
+                        </div>
+
+                        <div class="league_status"><img src="images/green.png" alt="" style="height: 10px; width:10px"/><span class="status_image">5 Steps to list</span></div>
+
+                        <div class="leagues_actions">
+                            <div class="mainbutton">
+                                <div class="button edit_button"><img src="images/edit.png" alt=""><span>Edit</span></div>
+                            </div>
+                            <div class="mainbutton">
+                                <div class="button delete_button"><img src="images/delete.png" alt=""><span>Delete</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> <!--end of main section 3-->
+                <hr/>
             </div>
-            <hr>
 
-            <div class="main_section2">
-                <div class="mainbutton">
-                    <div class="button add_button"><img src="images/add139.png" alt=""><span>Create New Leagues</span></div>
+            <div class="tab-pane" role="tabpanel" id="past_leagues">
+                <div class="main_section1">
+                    <h2>Re-new in-active leagues</h2>
+                    <p>Select the past league you would like to renew</p>
                 </div>
-                <div class="mainbutton">
-                    <div class="button edit_button"><img src="images/arrow138.png" alt=""><span>Re-New League</span></div>
+                <hr>
+
+                <div class="main_section2">
+                    <div class="mainbutton">
+                        <div class="button add_button"><img src="images/add139.png" alt=""><span>Create New Leagues</span></div>
+                    </div>
+                    <div class="mainbutton">
+                        <div class="button edit_button"><img src="images/arrow138.png" alt=""><span>Re-New League</span></div>
+                    </div>
                 </div>
+                <hr>
+
+                <div class="main_section3">
+                    <h3>Current Leagues</h3>
+
+                    <div class="leagues border">
+                        <div class="leagues_image">
+                            <img src="images/league_img.png" alt=""/>
+                        </div>
+
+                        <div class="leagues_name_section">
+                            <div class="league_name">Basket Ball League Basket Ball League Basket Ball League</div>
+                            <div class="league_season">Fall 2015</div>
+                        </div>
+
+                        <div class="league_status"><img src="images/green.png" alt="" style="height: 10px; width:10px"/><span class="status_image">5 Steps to list</span></div>
+
+                        <div class="leagues_actions">
+                            <div class="mainbutton">
+                                <div class="button edit_button"><img src="images/edit.png" alt=""><span>Edit</span></div>
+                            </div>
+                            <div class="mainbutton">
+                                <div class="button delete_button"><img src="images/delete.png" alt=""><span>Delete</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="leagues border">
+                        <div class="leagues_image">
+                            <img src="images/league_img.png" alt=""/>
+                        </div>
+
+                        <div class="leagues_name_section">
+                            <div class="league_name">Basketertertertertertert</div>
+                            <div class="league_season">Fall 2015</div>
+                        </div>
+
+                        <div class="league_status"><img src="images/green.png" alt="" style="height: 10px; width:10px"/><span class="status_image">5 Steps to list</span></div>
+
+                        <div class="leagues_actions">
+                            <div class="mainbutton">
+                                <div class="button edit_button"><img src="images/edit.png" alt=""><span>Edit</span></div>
+                            </div>
+                            <div class="mainbutton">
+                                <div class="button delete_button"><img src="images/delete.png" alt=""><span>Delete</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> <!--end of main section 3-->
+                <hr/>
             </div>
-            <hr>
 
-            <div class="main_section3">
-                <h3>Current Leagues</h3>
-
-
-                <div class="leagues border">
-                    <div class="leagues_image">
-                        <img src="images/league_img.png" alt=""/>
-                    </div>
-
-                    <div class="leagues_name_section">
-                        <div class="league_name">Basket Ball League Basket Ball League Basket Ball League</div>
-                        <div class="league_season">Fall 2015</div>
-                    </div>
-
-                    <div class="league_status"><img src="images/green.png" alt="" style="height: 10px; width:10px"/><span class="status_image">5 Steps to list</span></div>
-
-                    <div class="leagues_actions">
-                        <div class="mainbutton">
-                            <div class="button edit_button"><img src="images/edit.png" alt=""><span>Edit</span></div>
-                        </div>
-                        <div class="mainbutton">
-                            <div class="button delete_button"><img src="images/delete.png" alt=""><span>Delete</span></div>
-                        </div>
-                    </div>
+            <div class="tab-pane" role="tabpanel" id="archives">
+                <div class="main_section1">
+                    <h2>Leagues archives</h2>
+                    <p>These are the leagues you don't intend to re-new anytime soon</p>
                 </div>
+                <hr>
+                
+                <div class="main_section3">
+                    <h3>Current Leagues</h3>
 
-                <div class="leagues border">
-                    <div class="leagues_image">
-                        <img src="images/league_img.png" alt=""/>
-                    </div>
-
-                    <div class="leagues_name_section">
-                        <div class="league_name">Basketertertertertertert</div>
-                        <div class="league_season">Fall 2015</div>
-                    </div>
-
-                    <div class="league_status"><img src="images/green.png" alt="" style="height: 10px; width:10px"/><span class="status_image">5 Steps to list</span></div>
-
-                    <div class="leagues_actions">
-                        <div class="mainbutton">
-                            <div class="button edit_button"><img src="images/edit.png" alt=""><span>Edit</span></div>
+                    <div class="leagues border">
+                        <div class="leagues_image">
+                            <img src="images/league_img.png" alt=""/>
                         </div>
-                        <div class="mainbutton">
-                            <div class="button delete_button"><img src="images/delete.png" alt=""><span>Delete</span></div>
+
+                        <div class="leagues_name_section">
+                            <div class="league_name">Basket Ball League Basket Ball League Basket Ball League</div>
+                            <div class="league_season">Fall 2015</div>
+                        </div>
+
+                        <div class="league_status"><img src="images/green.png" alt="" style="height: 10px; width:10px"/><span class="status_image">5 Steps to list</span></div>
+
+                        <div class="leagues_actions">
+                            <div class="mainbutton">
+                                <div class="button edit_button"><img src="images/edit.png" alt=""><span>Edit</span></div>
+                            </div>
+                            <div class="mainbutton">
+                                <div class="button delete_button"><img src="images/delete.png" alt=""><span>Delete</span></div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div><!--end of main section 3-->
-            <hr/>
 
-            <!--<button class="test"><img src="svg/add139.svg" alt=""/>Edit</button>-->
-        </div>
-        <!--end of right panel-->
+                    <div class="leagues border">
+                        <div class="leagues_image">
+                            <img src="images/league_img.png" alt=""/>
+                        </div>
+
+                        <div class="leagues_name_section">
+                            <div class="league_name">Basketertertertertertert</div>
+                            <div class="league_season">Fall 2015</div>
+                        </div>
+
+                        <div class="league_status"><img src="images/green.png" alt="" style="height: 10px; width:10px"/><span class="status_image">5 Steps to list</span></div>
+
+                        <div class="leagues_actions">
+                            <div class="mainbutton">
+                                <div class="button edit_button"><img src="images/edit.png" alt=""><span>Edit</span></div>
+                            </div>
+                            <div class="mainbutton">
+                                <div class="button delete_button"><img src="images/delete.png" alt=""><span>Delete</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> <!--end of main section 3-->
+                <hr/>
+            </div>
+        </div> <!--end of right panel-->
 
     </div>
 
