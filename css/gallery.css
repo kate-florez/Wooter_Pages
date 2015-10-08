@@ -1,0 +1,28 @@
+/* Reference for image grey out */
+.Rectangle_2 {
+  background-color: rgb(29, 29, 29);
+  opacity: 0.451;
+  position: absolute;
+  left: 1862px;
+  top: 1185px;
+  width: 444px;
+  height: 331px;
+  z-index: 61;
+}
+
+#add_photo {
+  position: relative;
+  background-color: rgb(43, 181, 246);
+  border-radius: 20px;
+  color: white;
+}
+
+.col-lg-3 img{
+  max-width: 200px;
+}
+
+img#add_camera {
+  color: white;
+  position: absolute;
+  top: 10px;
+}
