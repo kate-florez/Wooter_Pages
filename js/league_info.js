@@ -8,6 +8,7 @@
 
 
 $(document).ready(function() {
+
   $('.main_img').hover(function() {
     $(this).addClass('hover');
   }, function() {
