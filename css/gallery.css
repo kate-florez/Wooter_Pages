@@ -33,11 +33,6 @@
   width: 22px;
 }
 
-#images {
-  list-style-type: none;
-  display:inline;
-}
-
 #add_photo_btn {
   max-width: 75px;
   position: relative;
@@ -67,10 +62,11 @@ div.col-lg-3 {
   list-style: none;
   display: inline;
   vertical-align: middle;
+  background-color: #fff;
 }
 
 a img {
-  max-width: 220px;
+  max-width: 210px;
 }
 
 .main_img {
@@ -78,7 +74,8 @@ a img {
   max-width: 220px;
   position: relative;
   margin-bottom: 20px;
-  opacity: .4;
+  opacity: .5;
+  filter: alpha(opacity=40);
 }
 
 .hover {
@@ -97,12 +94,6 @@ img.delete_image {
 .delete_hover {
   z-index: 4;
 }
-
-/*.col-lg-3 img{
-  position: absolute;
-  max-width: 220px;
-  margin-right: 20px;
-}*/
 
 img#add_camera {
   color: white;
