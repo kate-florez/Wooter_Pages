@@ -21,7 +21,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <!-- <script src="//code.jquery.com/jquery-1.11.3.min.js"></script> -->
     <script src='js/jquery-1.11.3.min.js'></script>
-    <script src="js/custom.js"></script>
+    <script src='js/league_info.js'></script>
 </head>
 <body style="background-color: #f1f1f1;">
 
@@ -90,29 +90,62 @@
             </div>
             <hr>
 
-            <div class='row'>
+            <div>
                 <button type='button' class='btn' id='add_photo'>
                 <span>
-                    <img src='images/camera_small.png' style='max-width: 20px'>
+                    <img src='images/camera_small.png' style='max-width: 20px' id='photo_img'>
                     Add Photo
                 </span>
                 </button>
 
                 <button type='button' class='btn' id='add_video'>
                     <span>
+                        <img src='images/play_arrow.png' style='max-width: 20px' id='play_arrow'>
+                        Add Video
                     </span>
                 </button>
             </div>
 
+            <hr>
+
+
+            <div>
+                <h5>Current Photos</h5>
+
+                    <div id='image_gallery'>
+                        <a href='#'><img src='images/gallery_1.png' class='main_img'></a>
+                        <a href='#'><img src='images/delete_image.png' class='delete_image'></a>
+                        <a href='#'><img src='images/gallery_2.png' class='main_img'></a>
+                        <a href='#'><img src='images/delete_image.png' class='delete_image'></a>
+                        <!-- <a href='#'><img src='images/gallery_2.png' class='add_image'></a> -->
+                        <div style='height: 165px; width: 220px; background-color: gray'>
+
+                        </div>
+                        <a href='#'><img src='images/delete_image.png' class='delete_image'></a>
+                    </div>
+
+            </div>
 
             <hr>
 
-            <div class='row show-grid'>
-                <div id='image_gallery'>
-                    <div class='col-lg-3'>
-                        <img src='images/gallery_1.png' id='add_camera'>
+            <div>
+                <h5>Current Videos</h5>
+
+                    <div id='image_gallery'>
+                        <a href='#'><img src='images/gallery_3.png'class='main_img'></a>
+                        <a href='#'><img src='images/delete_image.png' class='delete_image'></a>
                     </div>
-                </div>
+            </div>
+
+            <hr>
+
+            <div class='row' id='nav-btns'>
+                <button type='button' class='btn' style='background-color: white; color: rgb(43, 181, 246)'>
+                        Back
+                </button>
+                <button type='button' class='btn' id='next-button'>
+                        Next
+                </button>
             </div>
 
         </div>

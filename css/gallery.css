@@ -1,25 +1,108 @@
-/* Reference for image grey out */
-.Rectangle_2 {
-  background-color: rgb(29, 29, 29);
-  opacity: 0.451;
-  position: absolute;
-  left: 1862px;
-  top: 1185px;
-  width: 444px;
-  height: 331px;
-  z-index: 61;
+#add_photo {
+  position: relative;
+  background-color: rgb(43, 181, 246);
+  border-radius: 20px;
+  color: white;
+  margin-right: 70px;
 }
 
-#add_photo {
+#photo_img {
+  margin-right: 5px;
+}
+
+#add_video {
+  border-radius: 20px;
+  color: white;
+}
+
+#play_arrow {
+  max-width: 8px;
+  max-height: 18px;
+  margin-right: 5px;
+}
+
+/*#addPhotoOption {
+  border: 1px solid rgb(105, 105, 105);
+  border-radius: 4px;
+  height: 165.25px;
+  width: 220px;
+}*/
+
+#addVideoOption {
+  height: 165.25px;
+  width: 22px;
+}
+
+#images {
+  list-style-type: none;
+  display:inline;
+}
+
+#add_photo_btn {
+  max-width: 75px;
+  position: relative;
+  top: 40px;
+  left: 45px;
+}
+
+#addPhoto {
+  position: relative;
+  text-align: center;
+  top: 40px;
+
+}
+
+button {
   position: relative;
   background-color: rgb(43, 181, 246);
   border-radius: 20px;
   color: white;
 }
 
-.col-lg-3 img{
-  max-width: 200px;
+div.col-lg-3 {
+  position: relative;
 }
+
+#image_gallery ul{
+  list-style: none;
+  display: inline;
+  vertical-align: middle;
+}
+
+a img {
+  max-width: 220px;
+}
+
+.main_img {
+  z-index: 3;
+  max-width: 220px;
+  position: relative;
+  margin-bottom: 20px;
+  opacity: .4;
+}
+
+.hover {
+  z-index: 1 !important;
+  opacity: 1 !important;
+}
+
+img.delete_image {
+  position: relative;
+  z-index: 2;
+  right: 220px;
+  bottom: 72px;
+  max-width: 30px;
+}
+
+.delete_hover {
+  z-index: 4;
+}
+
+/*.col-lg-3 img{
+  position: absolute;
+  max-width: 220px;
+  margin-right: 20px;
+}*/
 
 img#add_camera {
   color: white;
