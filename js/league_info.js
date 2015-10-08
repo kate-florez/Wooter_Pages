@@ -11,7 +11,6 @@ $(document).ready(function() {
   $('.main_img').click(function() {
     $('#background').css({"opacity" : '0.7'}).fadeIn('slow');
     $("#large").html("<img src='"+$(this).parent().attr("href")+"' alt='"+$(this).attr("alt")+"' /><br/>"+$(this).attr("rel")+"").center().fadeIn('slow');
-    $('.delete_image').css('display', 'none');
     return false;
   });
 
@@ -19,20 +18,21 @@ $(document).ready(function() {
     if(e.keyCode==27) {
       $("#background").fadeOut('slow');
       $('#large').fadeOut('slow');
+      $('.delete_image').fadeIn('slow');
     }
   });
 
   $('#background').click(function() {
     $('#background').fadeOut('slow');
     $('#large').fadeOut('slow');
+    $('.delete_image').fadeIn('slow');
   });
 
   $('#large').click(function() {
     $('#background').fadeOut('slow');
     $('#large').fadeOut('slow');
+    $('.delete_image').fadeIn('slow');
   });
-
-
 
   // Hover over gallery image
   $('.main_img').hover(function() {
@@ -41,10 +41,13 @@ $(document).ready(function() {
     $(this).removeClass('hover');
   });
 
-  $('.delete_image').hover(function() {
-    $(this).addClass('delete_hover');
-  }, function() {
-    $(this.removeClass('delete_hover'));
+  // $('.delete_image').hover(function() {
+  //   $(this).addClass('delete_hover');
+  // }, function() {
+  //   $(this.removeClass('delete_hover'));
+  // });
+  $('#img_delete_btn').click(function() {
+    $(this).toggle();
   });
 
 });

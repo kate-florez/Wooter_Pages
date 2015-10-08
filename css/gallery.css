@@ -84,11 +84,17 @@ a img {
 }
 
 img.delete_image {
+  background-image: url(images/delete_image.png);
   position: relative;
   z-index: 2;
   right: 220px;
   bottom: 72px;
   max-width: 30px;
+}
+
+#image_delete_btn {
+
+  z-index: 2;
 }
 
 .delete_hover {
@@ -110,15 +116,15 @@ img#add_camera {
   background: #FFFFFF;
   padding: 5px;
   z-index: 10;
-  min-height: 200px;
-  min-width: 200px;
+  min-height: 300px;
+  min-width: 300px;
   color: #336699;
 }
 
 #background {
   display: none;
   position: absolute;
-  height: 100%;
+  height: 200%;
   width: 100%;
   top: 0;
   left: 0;
