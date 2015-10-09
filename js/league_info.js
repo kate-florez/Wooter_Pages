@@ -22,19 +22,22 @@ $(document).ready(function() {
     }
   });
 
+// Click background to go back to gallery
   $('#background').click(function() {
     $('#background').fadeOut('slow');
     $('#large').fadeOut('slow');
     $('.delete_image').fadeIn('slow');
   });
 
+// Click large image to go back to gallery
   $('#large').click(function() {
     $('#background').fadeOut('slow');
     $('#large').fadeOut('slow');
     $('.delete_image').fadeIn('slow');
   });
 
-  // Hover over gallery image
+  // Hover over gallery image to reveal clear
+  // image and delete button
   $('.main_img').hover(function() {
     $(this).addClass('hover');
   }, function() {
