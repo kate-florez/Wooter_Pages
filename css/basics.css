@@ -58,10 +58,10 @@
 div.btn-group {
     position: relative;
     /*margin-left: 20%;*/
-    left: 164px;
+    left: 157px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    border-top: 1px solid rgb(245, 245, 245);
+    /*border-top: 1px solid rgb(245, 245, 245);*/
 }
 
 /*/ edit button */
