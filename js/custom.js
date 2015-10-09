@@ -2,15 +2,13 @@
 $(document).ready(function(){
 
     $(".nav_profile_img").click(function(){
-        $( ".hamburger_menu_list" ).removeClass( "profile_options_show" );
-        $( ".hamburger_menu_list" ).removeClass( "slideInLeft" );
+        $( ".hamburger_menu_list" ).removeClass( "mobile_list_show" ).removeClass( "slideInLeft" );;
         $( ".hamburger_menu_list .first .second" ).removeClass( "fadeInUp" );
 
-        $( ".profile_options1" ).toggleClass( "profile_options_show" );
-        $( ".profile_options1" ).toggleClass( "slideInRight" );
-        $( ".profile_options1 .first .second" ).toggleClass( "fadeInUp" );
+        $( ".profile_options_list" ).toggleClass( "mobile_list_show" ).toggleClass( "slideInRight" );;
+        $( ".profile_options_list .first .second" ).toggleClass( "fadeInUp" );
 
-        var count = $(".profile_options1 .first .second").length;
+        var count = $(".profile_options_list .first .second").length;
         for (var i=1; i<=count;i++){
             var a=(i/20+"s");
 
@@ -21,12 +19,10 @@ $(document).ready(function(){
     });
 
     $(".hamburger_menu_button").click(function(){
-        $( ".profile_options1" ).removeClass("profile_options_show"  );
-        $( ".profile_options1" ).removeClass( "slideInRight" );
-        $( ".profile_options1 .first .second" ).removeClass( "fadeInUp" );
+        $( ".profile_options_list" ).removeClass("mobile_list_show").removeClass( "slideInRight" );;
+        $( ".profile_options_list .first .second" ).removeClass( "fadeInUp" );
 
-        $( ".hamburger_menu_list" ).toggleClass( "profile_options_show" );
-        $( ".hamburger_menu_list" ).toggleClass( "slideInLeft" );
+        $( ".hamburger_menu_list" ).toggleClass( "mobile_list_show").toggleClass( "slideInLeft" );;
         $( ".hamburger_menu_list .first .second" ).toggleClass( "fadeInUp" );
 
         var count1 = $(".hamburger_menu_list .first .second").length;

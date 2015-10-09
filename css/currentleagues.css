@@ -167,7 +167,7 @@ nav .menu ul li .nav_profile_img{
 
 }
 
-.profile_options{
+.mobile_list{
     background-color: rgb(24, 61, 78);
 }
 
@@ -378,7 +378,6 @@ span.aside_title {
 }
 
 .main_section3 .leagues .leagues_actions{
-    /*width: 75px;*/
     height: inherit;
     margin-right: 12px;
     padding-top: 12px;
@@ -388,18 +387,28 @@ span.aside_title {
     -webkit-flex-shrink: 0;
     flex-shrink: 0;
     position: relative;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+#current_leagues .leagues_actions{
+    width: 75px;
+}
+
+.main_section3 .leagues .leagues_actions .edit_button, .renew_button, .unarchive_button{
+    border-radius: 7px;
+    height: 29px;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    position: absolute;
+    right: 0;
+    top: 12px;
 }
 
 .main_section3 .leagues .leagues_actions .edit_button{
-    border-radius: 7px;
-    height: 29px;
-    border: none;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 500;
     width: 75px;
-    letter-spacing: 1.2px;
 }
+
 
 .main_section3 .leagues .leagues_actions .edit_button img{
     height: 14px;
@@ -408,25 +417,62 @@ span.aside_title {
     margin-left: 4px;
 }
 
-.main_section3 .leagues .leagues_actions .delete_button{
+.main_section3 .leagues .leagues_actions .delete_button, .archive_button{
     position: absolute;
     bottom: 12px;
     right: 0px;
     border-radius: 7px;
     background-color: #B8B8B8;
-    color: #ffffff;
     font-size: 12px;
-    font-weight: 500;
     letter-spacing: 1px;
-    width: 75px;
-    height: 28px;
+    /*width: 75px;*/
+    height: 29px;
 }
 
 .main_section3 .leagues .leagues_actions .delete_button img{
     height: 19px;
+    /*margin-bottom: px;*/
 }
 
 .main_section3 .leagues .leagues_actions .delete_button:hover{
-   background-color: #9E9E9E !important;
+    background-color: #9E9E9E !important;
 }
+
+/*past leagues*/
+
+#past_leagues .leagues_actions{
+    width: 120px;
+}
+
+#past_leagues .main_section3 .leagues .leagues_actions .renew_button img{
+    height: 18px;
+    padding-down:2px;
+    padding-right: 5px;
+}
+
+#past_leagues .archive_button{
+    right: 84px;
+    width: 80px;
+}
+
+#past_leagues .archive_button img{
+    height: 15px;
+}
+
+/*archives*/
+
+#archives .leagues_actions{
+    width: 125px;
+}
+
+#archives .main_section3 .leagues .leagues_actions .unarchive_button img{
+    height: 16px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+}
+
+
+
+
+
 
