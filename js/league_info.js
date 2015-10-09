@@ -46,7 +46,7 @@ $(document).ready(function() {
   // }, function() {
   //   $(this.removeClass('delete_hover'));
   // });
-  $('#img_delete_btn').click(function() {
+  $('.delete_image').click(function() {
     $('.main_img').fadeOut(500);
   });
 

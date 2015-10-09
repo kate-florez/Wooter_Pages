@@ -60,9 +60,10 @@ div.col-lg-3 {
 
 #image_gallery ul{
   list-style: none;
-  display: inline;
+  display: -webkit-inline-box;
   vertical-align: middle;
   background-color: #fff;
+  padding-left: 0px;
 }
 
 a img {
@@ -111,10 +112,10 @@ img#add_camera {
   position: relative;
   width: 220px;
   height: 165px;
-  float: right;
+  /*float: right;*/
   border: 1px solid rgb(107, 107, 107);
   padding-top: 20px;
-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.11);
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.11);
 }
 
 .figure_img{
@@ -140,11 +141,6 @@ box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.11);
 
 .add_video {
   width: 70px;
-}
-
-#add_video_btn {
-  position: relative;
-  right: 35%;
 }
 
 #add_video_thing {
