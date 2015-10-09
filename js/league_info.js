@@ -47,7 +47,7 @@ $(document).ready(function() {
   //   $(this.removeClass('delete_hover'));
   // });
   $('#img_delete_btn').click(function() {
-    $(this).toggle();
+    $('.main_img').fadeOut(500);
   });
 
 });
