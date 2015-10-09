@@ -21,6 +21,10 @@ $(document).ready(function() {
       $('.delete_image').fadeIn('slow');
     }
   });
+  $(document).keypress(function() {
+    $('#background').fadeOut('slow');
+    $('#large').fadeOut('slow');
+  });
 
 // Click background to go back to gallery
   $('#background').click(function() {
