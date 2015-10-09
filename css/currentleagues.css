@@ -305,6 +305,10 @@ span.aside_title {
 }
 /* ________________________ */
 
+.nav-btns {
+    color: rgb(43, 181 246);
+}
+
 #next-button.btn {
     color: rgb(43, 181, 246);
     background-color: white;
@@ -314,6 +318,9 @@ span.aside_title {
     float: right;
 }
 
+button.btn a {
+    color: rgb(43, 181, 246);
+}
 
 .main_section .main_section2 .edit_button img, .main_section .main_section2 .add_button img{
     height: 18px !important;
