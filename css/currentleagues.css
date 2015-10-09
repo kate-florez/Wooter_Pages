@@ -305,6 +305,17 @@ span.aside_title {
     letter-spacing: 1.2px;
 }
 /* ________________________ */
+
+#next-button.btn {
+    color: rgb(43, 181, 246);
+    background-color: white;
+    border: 1px solid rgb(43, 181, 246);
+    border-radius: 5px;
+    padding: 6px 40px;
+    float: right;
+}
+
+
 .main_section .main_section2 .edit_button img, .main_section .main_section2 .add_button img{
     height: 18px !important;
     padding-right: 4px;
