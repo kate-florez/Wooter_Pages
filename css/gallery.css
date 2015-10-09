@@ -75,7 +75,6 @@ a img {
   z-index: 3;
   max-width: 220px;
   position: relative;
-  margin-bottom: 20px;
   opacity: .5;
   filter: alpha(opacity=40);
 }
@@ -90,8 +89,16 @@ img.delete_image {
   position: relative;
   z-index: 2;
   right: 220px;
-  bottom: 72px;
+  bottom: 65px;
   max-width: 30px;
+}
+
+.play_video {
+  position: relative;
+  right: 65px;
+  top: 65px;
+  z-index: 2;
+  width: 20px;
 }
 
 #image_delete_btn {
