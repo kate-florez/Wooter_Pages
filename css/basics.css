@@ -96,21 +96,16 @@ div.btn-group {
     padding-right: 2px;
 }
 
+#house_img {
+    margin-right: 5px;
+}
+
 span#add-venue-span {
     padding: 6px, 3px, 6px, 3px;
 }
 
 div#nav-btns {
     margin-top: 40px;
-}
-
-#next-button.btn {
-    color: rgb(43, 181, 246);
-    background-color: white;
-    border: 1px solid rgb(43, 181, 246);
-    border-radius: 5px;
-    padding: 6px 40px;
-    float: right;
 }
 
 div#checks {
