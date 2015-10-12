@@ -81,6 +81,14 @@ $(document).ready(function() {
     }
   });
 
+  $('#delete-button').click(function() {
+    $('li#venue').fadeOut(250);
+  });
+
+  $('#delete-button_2').click(function() {
+    $('li#venue_2').fadeOut(250);
+  });
+
   // Change active venue
   // $('li#venue').click(function() {
   //   $(this).toggleClass('active-venue');
