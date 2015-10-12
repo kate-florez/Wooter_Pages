@@ -32,6 +32,7 @@ body {
     -webkit-align-items: center; /* Safari */
     align-items:         center;
     cursor: pointer;
+    z-index: 0 !important;
 }
 
 .button img{
@@ -341,7 +342,6 @@ button.btn a {
     max-width: 733px;
     width: 100%;
     min-height: 114px;
-    z-index: 29;
     margin-bottom: 10px;
     display: -webkit-flex; /* Safari */
     display: flex;
@@ -574,7 +574,7 @@ nav .wooter_logo img{
 }
 
 nav .menu {
-    right: 12px;
+    right: 20px;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
@@ -921,9 +921,63 @@ span.aside_title {
     padding-right: 5px;
 }
 
+.dropdown-menu{
+    top:50px !important;
+    font-size: 21px !important;
+}
 
+.dropdown-menu li{
+    border-bottom: 1px solid #eee;
+    width: 100% !important;
+    padding: 5px 10px !important;
+    margin: 0 !important;
+}
 
+.dropdown-menu li:last-child{
+    border-bottom: none;
+}
 
+.dropdown-menu li a{
+    font-family:'Roboto', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    padding: 10px 0 !important;
+    line-height: 1.8;
+    color: rgb(86, 90, 92) !important;
+    letter-spacing: 1px;
+}
+/*.dropdown-menu:before {*/
+    /*position: absolute;*/
+    /*top: -7px;*/
+    /*left: 9px;*/
+    /*display: inline-block;*/
+    /*border-right: 7px solid transparent;*/
+    /*border-bottom: 7px solid #ccc;*/
+    /*border-left: 7px solid transparent;*/
+    /*border-bottom-color: rgba(0, 0, 0, 0.2);*/
+    /*content: '';*/
+/*}*/
 
+.dropdown-menu:before {
+    position: absolute;
+    top: -7px;
+    right: 12.5px;
+    display: inline-block;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #ccc;
+    border-left: 7px solid transparent;
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    content: '';
+}
 
+.dropdown-menu:after {
+    position: absolute;
+    top: -6px;
+    right: 13.5px;
+    display: inline-block;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #ffffff;
+    border-left: 6px solid transparent;
+    content: '';
+}
 
