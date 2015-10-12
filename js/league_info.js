@@ -55,14 +55,41 @@ $(document).ready(function() {
     $('.main_img').fadeOut(500);
   });
 
+
+  // Select venue and de-select other
   $('li#venue').click(function() {
-    $(this).toggleClass('active-venue');
-    $('#venue-btns').toggleClass('hide');
+    if ($('li#venue_2').hasClass('active-venue')) {
+      $('li#venue_2').removeClass('active-venue');
+      $('#venue-btns_2').addClass('hide');
+      $(this).addClass('active-venue');
+      $('#venue-btns').removeClass('hide');
+    } else {
+      $('li#venue').toggleClass('active-venue');
+      $('#venue-btns').toggleClass('hide');
+    }
   });
 
   $('li#venue_2').click(function() {
-    $(this).toggleClass('active-venue');
-    $('#venue-btns_2').toggleClass('hide');
+    if ($('li#venue').hasClass('active-venue')) {
+      $('li#venue').removeClass('active-venue');
+      $('#venue-btns').addClass('hide');
+      $(this).addClass('active-venue');
+      $('#venue-btns_2').removeClass('hide');
+    } else {
+      $('li#venue_2').toggleClass('active-venue');
+      $('#venue-btns_2').toggleClass('hide');
+    }
   });
+
+  // Change active venue
+  // $('li#venue').click(function() {
+  //   $(this).toggleClass('active-venue');
+  //   $('#venue-btns').toggleClass('hide');
+  // });
+
+  // $('li#venue_2').click(function() {
+  //   $(this).toggleClass('active-venue');
+  //   $('#venue-btns_2').toggleClass('hide');
+  // });
 
 });
