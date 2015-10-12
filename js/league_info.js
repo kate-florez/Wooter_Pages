@@ -43,9 +43,7 @@ $(document).ready(function() {
   // Hover over gallery image to reveal clear
   // image and delete button
   $('.main_img').hover(function() {
-    $(this).addClass('hover');
-  }, function() {
-    $(this).removeClass('hover');
+    $(this).toggleClass('hover');
   });
 
   // $('.delete_image').hover(function() {
@@ -55,6 +53,16 @@ $(document).ready(function() {
   // });
   $('.delete_image').click(function() {
     $('.main_img').fadeOut(500);
+  });
+
+  $('li#venue').click(function() {
+    $(this).toggleClass('active-venue');
+    $('#venue-btns').toggleClass('hide');
+  });
+
+  $('li#venue_2').click(function() {
+    $(this).toggleClass('active-venue');
+    $('#venue-btns_2').toggleClass('hide');
   });
 
 });
