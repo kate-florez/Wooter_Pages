@@ -104,6 +104,7 @@ div.btn-group.pull-right {
     border-left: 1px solid rgb(184, 184, 184);
     border-right: 1px solid rgb(184, 184, 184);
     height: 30px;
+    padding-top: 4px;
 }
 
 /* delete button*/
@@ -115,8 +116,7 @@ div.btn-group.pull-right {
     background-color: rgb(245, 245, 245);
     border-left: 1px solid rgb(184, 184, 184);
     height: 30px;
-    padding-left: 5px;
-    padding-right: 10px;
+    padding: 4px 10px 6px 5px;
 }
 
 #add-venue {
