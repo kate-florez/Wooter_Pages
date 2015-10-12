@@ -56,6 +56,7 @@ div#features.col-lg-5 input {
     border-radius: 20px;
     color: white;
     padding: 6px 8px 6px 6px;
+    margin-top: 3px;
+    height: 33.5px;
+    padding-right: 15px;
 }
-
-

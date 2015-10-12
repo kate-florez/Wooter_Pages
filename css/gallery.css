@@ -4,21 +4,28 @@
   border-radius: 20px;
   color: white;
   margin-right: 70px;
+  height: 33.5px;
 }
 
 #photo_img {
   margin-right: 5px;
+  position: relative;
+  bottom: 2px;
 }
 
 #add_video {
+  position: relative;
   border-radius: 20px;
   color: white;
+  height: 33.5px;
 }
 
 #play_arrow {
+  position: relative;
   max-width: 8px;
   max-height: 18px;
   margin-right: 5px;
+  bottom: 1px;
 }
 
 /*#addPhotoOption {
@@ -177,4 +184,19 @@ img#add_camera {
   left: 0;
   background: #000000;
   z-index: 1;
+}
+
+
+
+
+
+
+.Rounded_Rectangle_1_copy_7 {
+  background-color: rgb(43, 181, 246);
+  position: absolute;
+  left: 1817px;
+  top: 570px;
+  width: 262px;
+  height: 67px;
+  z-index: 45;
 }
