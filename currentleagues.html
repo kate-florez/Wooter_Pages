@@ -26,7 +26,7 @@
     <!--custom javascript files-->
     <script src="js/custom.js"></script>
 </head>
-<body style="background-color: #f1f1f1">
+<body style="background-color: #f1f1f1;z-index: 0;">
 
     <header>
         <nav>
@@ -55,14 +55,15 @@
 
                     </li>
 
-                    <li class="btn-group"><a class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="nav_profile_img" src="images/profile_image.png" alt=""/></a>
+                    <li><a class="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="nav_profile_img" src="images/profile_image.png" alt=""/></a>
 
-                        <ul class="dropdown-menu pull-right" style="margin-top: 20px;background-color: #03A9F4">
-                            <span style="width: 100%;display: block;left: 10px"><img src="images/arrow.png" alt=""/></span>
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li><a href="#">Separated link</a></li>
+                        <ul class="dropdown-menu pull-right" style="z-index: 1">
+                            <li><a href="#">Dashboard</a></li>
+                            <li><a href="#">Your Leagues</a></li>
+                            <li><a href="#">Management</a></li>
+                            <li><a href="#">Account</a></li>
+                            <li><a href="#">Company Info</a></li>
+                            <li><a href="#">Log Out</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -72,7 +73,7 @@
 
         <div class="mobile_list profile_options_list animated">
             <div class="first">
-                <div class="second animated"><a href="dash.html">Dashboard</a></div>
+                <div class="second animated"><a href="">Dashboard</a></div>
                 <div class="second active animated"><a href="currentleagues.html">Your Leagues</a></div>
                 <div class="second animated"><a href="">Management</a></div>
                 <div class="second animated"><a href="payment_methods.html">Account</a></div>
@@ -170,7 +171,7 @@
 
                         <div class="league_status"><img src="images/green.png" alt=""/><span class="status_image">5 Steps to list</span></div>
 
-                        <div class="leagues_actions">
+                        <div class="leagues_actions" style="z-index: 0">
                             <div class="mainbutton">
                                 <div class="button edit_button"><img src="images/edit.png" alt=""><span>Edit</span></div>
                             </div>
