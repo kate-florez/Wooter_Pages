@@ -402,6 +402,7 @@ button.btn a {
     -webkit-flex-shrink: 0;
     flex-shrink: 0;
     position: relative;
+    z-index: 1000 !important;
 }
 
 .main_section3 .leagues .leagues_actions .edit_button{
@@ -839,6 +840,7 @@ span.aside_title {
     position: relative;
     color: #ffffff;
     font-weight: 500;
+    z-index: 0 !important;
 }
 
 #current_leagues .leagues_actions{
@@ -924,13 +926,14 @@ span.aside_title {
 .dropdown-menu{
     top:50px !important;
     font-size: 21px !important;
+    width: 200px;
 }
 
 .dropdown-menu li{
     border-bottom: 1px solid #eee;
     width: 100% !important;
     padding: 5px 10px !important;
-    margin: 0 !important;
+    margin: 0 10px !important;
 }
 
 .dropdown-menu li:last-child{
@@ -946,17 +949,6 @@ span.aside_title {
     color: rgb(86, 90, 92) !important;
     letter-spacing: 1px;
 }
-/*.dropdown-menu:before {*/
-    /*position: absolute;*/
-    /*top: -7px;*/
-    /*left: 9px;*/
-    /*display: inline-block;*/
-    /*border-right: 7px solid transparent;*/
-    /*border-bottom: 7px solid #ccc;*/
-    /*border-left: 7px solid transparent;*/
-    /*border-bottom-color: rgba(0, 0, 0, 0.2);*/
-    /*content: '';*/
-/*}*/
 
 .dropdown-menu:before {
     position: absolute;
