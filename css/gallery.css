@@ -85,7 +85,7 @@ a img {
 }
 
 img.delete_image {
-  background-image: url(images/delete_image.png);
+  /*background-image: url(images/delete_image.png);*/
   position: relative;
   z-index: 2;
   right: 220px;
