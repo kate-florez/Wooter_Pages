@@ -4,6 +4,10 @@
     border: 1px solid rgb(184, 184, 184);
 }
 
+ul.dropdown-menu {
+    left: 15px;
+}
+
 .main_section .main_section2 button img{
     height: 23px;
     padding-right: 4px;
