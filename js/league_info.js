@@ -14,6 +14,14 @@ $(document).ready(function() {
     return false;
   });
 
+  // Video Popup
+  $('.video_img').click(function() {
+    $('#background').css({ "opacity" : '0.7'}).fadeIn('fast');
+    $('#large').html("<video width='960px' height='540px' controls>" + "<source src='https://cdn.streamable.com/video/7k0q.webm' type='video/webm'>" + "<source src='videos/Aliens(1986).ogg' type='video/ogg'>" + "</video>").center().fadeIn('fast');
+    return false;
+  });
+
+  // Press a key to hide image
   $(document).keypress(function(e) {
     if(e.keyCode==27) {
       $("#background").fadeOut('fast');
@@ -57,7 +65,7 @@ $(document).ready(function() {
 
 
   // Select venue and de-select other
-  $('li#venue').click(function() {
+  $('li#venue').hover(function() {
     if ($('li#venue_2').hasClass('active-venue')) {
       $('li#venue_2').removeClass('active-venue');
       $('#venue-btns_2').addClass('hide');
@@ -69,7 +77,7 @@ $(document).ready(function() {
     }
   });
 
-  $('li#venue_2').click(function() {
+  $('li#venue_2').hover(function() {
     if ($('li#venue').hasClass('active-venue')) {
       $('li#venue').removeClass('active-venue');
       $('#venue-btns').addClass('hide');
@@ -83,11 +91,16 @@ $(document).ready(function() {
 
   // hide/delete venues
   $('#delete-button').click(function() {
-    $('li#venue').fadeOut(250);
+    $('li#venue').slideToggle(250);
   });
 
   $('#delete-button_2').click(function() {
-    $('li#venue_2').fadeOut(250);
+    $('li#venue_2').slideToggle(250);
+  });
+
+  $('#add-venue').click(function() {
+    $('li#venue').slideToggle(10);
+    $('li#venue_2').slideToggle(10);
   });
 
   // Change active venue

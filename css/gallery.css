@@ -78,7 +78,7 @@ a img {
   max-width: 210px;
 }
 
-.main_img {
+.main_img, .video_img {
   z-index: 3;
   max-width: 220px;
   position: relative;
