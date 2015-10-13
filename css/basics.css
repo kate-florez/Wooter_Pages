@@ -126,15 +126,20 @@ div.btn-group.pull-right {
     width: 20%;
     background: linear-gradient(rgb(43, 181, 246), rgb(40, 180, 269));
     padding-left: 2px;
-    padding-right: 2px;
+    padding-right: 5px;
+    width: 110px;
 }
 
 #house_img {
-    margin-right: 5px;
+    margin-right: 3px;
+    max-width: 20px;
+    padding-left: 1px;
 }
 
 span#add-venue-span {
+    position: relative;
     padding: 6px, 3px, 6px, 3px;
+    text-align: center;
 }
 
 div#nav-btns {
@@ -166,22 +171,3 @@ div#features.col-lg-5 input {
     color: white;
     padding: 6px 8px 6px 6px;
 }
-
-
-
-
-
-.Rounded_Rectangle_1_copy_5 {
-  border-width: 1.042px;
-  border-color: rgb(184, 184, 184);
-  border-style: solid;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.11);
-  position: absolute;
-  left: 1820px;
-  top: 1019px;
-  width: 1456.916px;
-  height: 64.916px;
-  z-index: 58;
-}
-

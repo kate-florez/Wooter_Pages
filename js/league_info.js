@@ -9,35 +9,35 @@ $(document).ready(function() {
 
   // Image Popup
   $('.main_img').click(function() {
-    $('#background').css({"opacity" : '0.7'}).fadeIn('slow');
-    $("#large").html("<img src='"+$(this).parent().attr("href")+"' alt='"+$(this).attr("alt")+"' /><br/>"+$(this).attr("rel")+"").center().fadeIn('slow');
+    $('#background').css({"opacity" : '0.7'}).fadeIn('fast');
+    $("#large").html("<img src='"+$(this).parent().attr("href")+"' alt='"+$(this).attr("alt")+"' /><br/>"+$(this).attr("rel")+"").center().fadeIn('fast');
     return false;
   });
 
   $(document).keypress(function(e) {
     if(e.keyCode==27) {
-      $("#background").fadeOut('slow');
-      $('#large').fadeOut('slow');
-      $('.delete_image').fadeIn('slow');
+      $("#background").fadeOut('fast');
+      $('#large').fadeOut('fast');
+      $('.delete_image').fadeIn('fast');
     }
   });
   $(document).keypress(function() {
-    $('#background').fadeOut('slow');
-    $('#large').fadeOut('slow');
+    $('#background').fadeOut('fast');
+    $('#large').fadeOut('fast');
   });
 
 // Click background to go back to gallery
   $('#background').click(function() {
-    $('#background').fadeOut('slow');
-    $('#large').fadeOut('slow');
-    $('.delete_image').fadeIn('slow');
+    $('#background').fadeOut('fast');
+    $('#large').fadeOut('fast');
+    $('.delete_image').fadeIn('fast');
   });
 
 // Click large image to go back to gallery
   $('#large').click(function() {
-    $('#background').fadeOut('slow');
-    $('#large').fadeOut('slow');
-    $('.delete_image').fadeIn('slow');
+    $('#background').fadeOut('fast');
+    $('#large').fadeOut('fast');
+    $('.delete_image').fadeIn('fast');
   });
 
   // Hover over gallery image to reveal clear
@@ -81,6 +81,7 @@ $(document).ready(function() {
     }
   });
 
+  // hide/delete venues
   $('#delete-button').click(function() {
     $('li#venue').fadeOut(250);
   });
