@@ -42,15 +42,19 @@ $(document).ready(function() {
   });
 
 // Click large image to go back to gallery
-  $('#large').click(function() {
-    $('#background').fadeOut('fast');
-    $('#large').fadeOut('fast');
-    $('.delete_image').fadeIn('fast');
-  });
+  // $('#large').click(function() {
+  //   $('#background').fadeOut('fast');
+  //   $('#large').fadeOut('fast');
+  //   $('.delete_image').fadeIn('fast');
+  // });
 
   // Hover over gallery image to reveal clear
   // image and delete button
   $('.main_img').hover(function() {
+    $(this).toggleClass('hover');
+  });
+
+  $('.video_img').hover(function() {
     $(this).toggleClass('hover');
   });
 

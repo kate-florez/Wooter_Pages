@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Payment Methods</title>
-    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/currentleagues.css"/>
     <link rel="stylesheet" href="css/currentleagues_resp.css"/>
-    <link rel="stylesheet" href="css/animate.css"/>
+
     <!--fonts-->
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,900,100,700,500,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="fonts/roboto_light_macroman/stylesheet.css">
@@ -30,87 +30,38 @@
 </head>
 <body style="background-color: #f1f1f1">
 
-<header>
-    <nav>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href='dash.html'><img src="images/wooter_logo.png" alt=""/></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a>
+                            <div class="message_count">
+                                <img src="svg/envelope32.svg" alt=""/>
+                                <span>3</span>
+                            </div>
+                         </a>
+                    </li>
+                    <li><a>David</a></li>
+                    <li><a><img class="nav_profile_img" src="images/profile_image.png" alt=""/></a></li>
+                </ul>
+            </div>
+        </nav>
 
-        <div class="hamburger_menu_button">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+        <div class="test profile_options animated">
+            <div class="first">
+                <div class="second animated"><a href="dash.html">Dashboard</a></div>
+                <div class="second animated"><a href="basics.html">Your Leagues</a></div>
+                <div class="second animated"><a href="">Management</a></div>
+                <div class="second animated active"><a href="">Account</a></div>
+                <div class="second animated"><a href="">Messages</a></div>
+                <div class="second animated"><a href="">Services</a></div>
+            </div>
         </div>
-
-        <div class="wooter_logo">
-            <a href='dash.html'><img src="images/wooter_logo.png" alt=""/></a>
-        </div>
-
-        <div class="menu">
-            <ul>
-                <li>
-                    <a>
-                        <div class="message_count">
-                            <img src="svg/mail3.svg" alt=""/>
-                            <span>3</span>
-                        </div>
-                    </a>
-                </li>
-                <li><a>David</a></li>
-                <li><a><img class="nav_profile_img" src="images/profile_image.png" alt=""/></a></li>
-            </ul>
-        </div>
-
-    </nav>
-
-    <div class="mobile_list profile_options_list animated">
-        <div class="first">
-            <div class="second animated"><a href="dash.html">Dashboard</a></div>
-            <div class="second animated"><a href="currentleagues.html">Your Leagues</a></div>
-            <div class="second animated"><a href="">Management</a></div>
-            <div class="second active animated"><a href="">Account</a></div>
-            <div class="second animated"><a href="">Messages</a></div>
-            <div class="second animated"><a href="">Services</a></div>
-        </div>
-    </div>
-
-    <div class="mobile_list hamburger_menu_list">
-        <ul class="first">
-            <li class="second animated">
-                <a href="index.html">Home</a>
-            </li>
-
-            <li class="second animated">
-                <a href="how-it-works.html">How it Works</a>
-            </li>
-
-            <li class="second animated">
-                <a href="coaches.html">Coaches</a>
-            </li>
-
-            <li class="second animated">
-                <a href="#contact">Courts</a>
-            </li>
-
-            <li class="second animated">
-                <a href="leagues.html">Leagues</a>
-            </li>
-
-            <li class="second animated">
-                <a href="#about">Services</a>
-            </li>
-
-            <li class="second animated">
-                <a href="#">Press</a>
-            </li>
-
-            <li class="second animated">
-                <a href="#about">About</a>
-            </li>
-
-            <li class="second animated">
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </div>
-</header>
+    </header>
 
     <section class="container">
 
@@ -207,7 +158,7 @@
                             <td>4v4 Basketball League</td>
                             <td>Returning Team</td>
                             <td>David Kalyman<br>Alban Toci<br>Alexander Aleksandrovski</td>
-                            <td class='transaction_action_width'><a class='' href=''>None</td>
+                            <td class='transaction_action_width'>None</td>
                             <td class='transaction_action_width'>Paid</td>
                             <td class='transaction_action_width2'><a href="">Manage Team</a><br><a href="">Full Details</a></td>
                         </tr>
@@ -318,7 +269,93 @@
         </section>
 
 
+        <section class='tab_4 hide'>
 
+            <p class='grey_headers'>Mobile Notifications</p>
+            <hr>
+            <div class='settings_section'>
+                <div class='col-md-2 left_tabs'>
+                    <p><strong>Mobile Phone</strong></p>
+                    <p>Recieve mobile updates by regular SMS text messages.</p>
+                </div>
+
+                <div class='col-md-2'></div>
+                <div class='col-md-8 left_tabs'>You can add a phone number to your account in the <a href="">Company</a> section.</div>
+            </div>
+            <div class='clear'></div>
+            <hr class='slim_margins'>
+
+            <div class='settings_section'>
+                <div class='col-md-2 left_tabs2'>
+                    <p><strong>Push Notifications</strong></p>
+                    <p>Recieve Push Notifications to your IPhone, IPad or Android device.</p>
+                </div>
+
+                <div class='col-md-2'></div>
+                <div class='col-md-8 left_tabs2'>Download the <a href="" style='text-decoration: underline;'>Wooter App</a> for IPhone, IPod Touch, or Android device and recieve updates in advance through Push Notifications instead of SMS text messages.</div>
+            </div>
+            <div class='clear'></div>
+            <hr class='slim_margins'>
+
+            <div class='settings_section'>
+                <div class='col-md-2 left_tabs2'>
+                    <p><strong>Notify Me When:</strong></p>
+                    <p>Applies to both text messages and Push Notifications.</p>
+                </div>
+
+                <div class='col-md-2'></div>
+                <div class='col-md-8 left_tabs2'>
+                  <div>
+                    <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox">
+                    <label for="checkbox-1" class="checkbox-custom-label">I recieve messages on Wooter.</label>
+                  </div>
+                  <div>
+                    <input id="checkbox-2" class="checkbox-custom" name="checkbox-2" type="checkbox">
+                    <label for="checkbox-2" class="checkbox-custom-label">A Player/Team has joined your league(s).</label>
+                  </div>
+                  <div>
+                    <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
+                    <label for="checkbox-3"class="checkbox-custom-label">Someone leaves a review.</label>
+                  </div>
+                  <div>
+                    <input id="checkbox-4" class="checkbox-custom" name="checkbox-4" type="checkbox">
+                    <label for="checkbox-4"class="checkbox-custom-label">Changes have been made to my league(s) or company info.</label>
+                  </div>
+                </div>
+            </div>
+            <div class='clear'></div>
+            <hr class='slim_margins'>
+
+            <br>
+            <p class='grey_headers'>Email Settings</p>
+            <hr>
+            <div class='settings_section'>
+                <div class='col-md-2 left_tabs'>
+                    <p><strong>I Want to Recieve:</strong></p>
+                    <p>Applies to both text messages and Push Notifications.</p>
+                </div>
+
+                <div class='col-md-2'></div>
+                <div class='col-md-8 left_tabs'>
+                    <div class='background_checkboxes'>
+
+                  <div>
+                    <input id="checkbox-5" class="checkbox-custom" name="checkbox-5" type="checkbox">
+                    <label for="checkbox-5"class="checkbox-custom-label">General Promotions, updates, news about Wooter or general promotions</label>
+                    <label style='padding-left:37px'>for partner campaigns and services, user surveys, insipration and love from Wooter.</label>
+                  </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class='clear'></div>
+            <hr class='slim_margins'>
+
+
+            <div class='button_pos_right'>
+                <a class='add_button' href=""><img src="images/delete_image.png">Cancel Account</a>
+            </div>
+        </section>
 
 
 

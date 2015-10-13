@@ -1,3 +1,7 @@
+a{
+	color: #52c2f8; 
+}
+
 .clear{
 	clear: both;
 }
@@ -34,7 +38,7 @@
 
 .account_nav ul{
 	padding: 0px;
-	width: 80%;
+	width: 95%;
 	margin: 0 auto;
 }
 
@@ -69,6 +73,11 @@
 .button_pos{
 	text-align: center;
 	margin-top: 20px;
+}
+
+.button_pos_right{
+	float: right;
+	margin-top: 40px;
 }
 
 .add_button{
@@ -159,4 +168,95 @@
 .transaction_action_width2{
 	width: 12%!important;
 	text-align: right;
+}
+
+
+.grey_headers{
+	color: #999;
+	font-weight: bold;
+	margin-bottom: -15px;
+}
+
+.left_tabs{
+	padding: 0px!important;
+	margin-top: -15px
+}
+
+.left_tabs2{
+	padding: 0px!important;
+}
+
+.settings_section{
+	margin-bottom: 0px;
+	width: 100%;
+	float: left;
+}
+
+.slim_margins{
+	margin:0px!important;
+}
+
+
+.checkboxes{
+	width: 20px;
+	height: 20px;
+}
+
+.left_tabs2 label{
+	font-weight: normal!important;
+}
+
+.background_checkboxes label{
+	font-weight: normal!important;
+}
+
+
+.checkbox-custom, .radio-custom {
+    opacity: 0;
+    position: absolute;   
+}
+
+.checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.checkbox-custom-label, .radio-custom-label {
+    position: relative;
+}
+
+.checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
+    content: '';
+    background: #fff;
+    border: 1px solid #000;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+     content     : '✓';
+	  color       : #52c2f8;
+	  font-size   : 1em;
+	  line-height : 1em;
+	  font-weight : bold;
+}
+
+.radio-custom + .radio-custom-label:before {
+    border-radius: 50%;
+}
+
+.radio-custom:checked + .radio-custom-label:before {
+    background: #ccc;
+}
+
+
+.checkbox-custom:focus + .checkbox-custom-label, .radio-custom:focus + .radio-custom-label {
+  outline: 1px solid #ddd; /* focus style */
 }
