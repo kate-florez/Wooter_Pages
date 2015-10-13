@@ -10,6 +10,7 @@ body {
     min-width: 480px;
     font-family: 'Roboto', sans-serif !important;
     height: 100%;
+    line-height: 0 !important;
 }
 
 .border{
@@ -125,7 +126,7 @@ nav .wooter_logo img{
 }
 
 nav .menu {
-    right: 12px;
+    right: 30px;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
@@ -142,8 +143,8 @@ nav .menu ul li{
     list-style: none;
     display: inline-block;
     font-size: 18px;
-    margin-left: 10px;
-    /*line-height: 1.2;*/
+    /*margin-left: 10px;*/
+    line-height: 1.2;
 }
 
 nav .menu ul li a{
@@ -244,7 +245,7 @@ nav .menu ul li .nav_profile_img{
     color: #183D4E;
     text-decoration: none;
     vertical-align: middle;
-    line-height: 34px;
+    /*line-height: 34px;*/
 }
 
 .aside ul li:hover{
@@ -261,7 +262,7 @@ span.aside_title {
     font-size: 20px;
     /* Change font to Roboto */
     color: rgb(205, 205, 205);
-    line-height: 0.673;
+    /*line-height: 0.673;*/
     -moz-transform: matrix(1.63686716132159,0,0,1.55297975842149,0,0);
     -webkit-transform: matrix(1.63686716132159,0,0,1.55297975842149,0,0);
     -ms-transform: matrix(1.63686716132159,0,0,1.55297975842149,0,0);
@@ -368,13 +369,13 @@ button.btn a {
     margin-right: 10px;
     font-size: 18px; /* origin size is 19px*/
     font-weight: 500;
-    line-height: 0.937;
+    /*line-height: 0.937;*/
     color: rgb(74, 74, 74);
 }
 
 .main_section3 .leagues_name_section .league_season{
     font-size: 15px;
-    line-height: 2.007;
+    /*line-height: 2.007;*/
 }
 
 .main_section3 .league_status{
@@ -575,7 +576,7 @@ nav .wooter_logo img{
 }
 
 nav .menu {
-    right: 20px;
+    right: 20px; /* original is 30px*/
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
@@ -592,7 +593,6 @@ nav .menu ul li{
     list-style: none;
     display: inline-block;
     font-size: 18px;
-    margin-left: 10px;
 }
 
 nav .menu ul li a{
@@ -611,8 +611,8 @@ nav .menu ul li .message_count span{
 }
 
 nav .menu ul li .nav_profile_img{
-    width: 40px;
-    height: 40px;
+    width: 54px;
+    height: 54px;
     border-radius: 50%;
     border: 2px solid  rgb(189, 189, 189);
 
@@ -639,7 +639,7 @@ nav .menu ul li .nav_profile_img{
 
 .first .second{
     height: 42px;
-    line-height: 42px;
+    /*line-height: 42px;*/
     -webkit-flex-shrink: 0;
     flex-shrink: 0;
 }
@@ -686,7 +686,7 @@ nav .menu ul li .nav_profile_img{
     color: #183D4E;
     text-decoration: none;
     vertical-align: middle;
-    line-height: 34px;
+    /*line-height: 34px;*/
 }
 
 .aside ul li:hover {
@@ -702,7 +702,7 @@ span.aside_title {
     margin-left: 33px;
     font-size: 20px;
     color: rgb(205, 205, 205);
-    line-height: 0.673;
+    /*line-height: 0.673;*/
     -moz-transform: matrix(1.63686716132159,0,0,1.55297975842149,0,0);
     -webkit-transform: matrix(1.63686716132159,0,0,1.55297975842149,0,0);
     -ms-transform: matrix(1.63686716132159,0,0,1.55297975842149,0,0);
@@ -805,13 +805,13 @@ span.aside_title {
     margin-right: 10px;
     font-size: 18px; /* origin size is 19px*/
     font-weight: 500;
-    line-height: 0.937;
+    /*line-height: 0.937;*/
     color: rgb(74, 74, 74);
 }
 
 .main_section3 .leagues_name_section .league_season{
     font-size: 15px;
-    line-height: 2.007;
+    /*line-height: 2.007;*/
 }
 
 .main_section3 .league_status{
@@ -924,7 +924,7 @@ span.aside_title {
 }
 
 .dropdown-menu{
-    top:50px !important;
+    top:70px !important;
     font-size: 21px !important;
     width: 200px;
 }
@@ -952,24 +952,24 @@ span.aside_title {
 
 .dropdown-menu:before {
     position: absolute;
-    top: -7px;
-    right: 12.5px;
+    top: -15px;
+    right: 10px;
     display: inline-block;
-    border-right: 7px solid transparent;
-    border-bottom: 7px solid #ccc;
-    border-left: 7px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #ccc;
+    border-left: 15px solid transparent;
     border-bottom-color: rgba(0, 0, 0, 0.2);
     content: '';
 }
 
 .dropdown-menu:after {
     position: absolute;
-    top: -6px;
-    right: 13.5px;
+    top: -14px;
+    right: 11px;
     display: inline-block;
-    border-right: 6px solid transparent;
-    border-bottom: 6px solid #ffffff;
-    border-left: 6px solid transparent;
+    border-right: 14px solid transparent;
+    border-bottom: 14px solid #ffffff;
+    border-left: 14px solid transparent;
     content: '';
 }
 
