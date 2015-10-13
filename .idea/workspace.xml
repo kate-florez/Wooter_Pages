@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa7db80a-387f-4be7-8ac7-199ad33e5e52" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/currentleagues.css" afterPath="$PROJECT_DIR$/css/currentleagues.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/currentleagues.html" afterPath="$PROJECT_DIR$/currentleagues.html" />
     </list>
     <ignored path="wooter.iws" />
@@ -23,14 +24,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="currentleagues.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="currentleagues.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/currentleagues.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3448819">
-              <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+            <state vertical-scroll-proportion="-2.5">
+              <caret line="72" column="63" selection-start-line="72" selection-start-column="63" selection-end-line="72" selection-end-column="63" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#2;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#2;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -42,18 +42,18 @@
       <file leaf-file-name="dash.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dash.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="currentleagues.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="currentleagues.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/currentleagues.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.333333">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.25037935">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -112,8 +112,8 @@
         <option value="$PROJECT_DIR$/payment_methods.html" />
         <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/dash.html" />
-        <option value="$PROJECT_DIR$/css/currentleagues.css" />
         <option value="$PROJECT_DIR$/currentleagues.html" />
+        <option value="$PROJECT_DIR$/css/currentleagues.css" />
       </list>
     </option>
   </component>
@@ -153,7 +153,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -172,23 +171,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wooter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Wooter_Pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,7 +318,6 @@
           <caret line="83" column="38" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="38" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#2;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#2;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -352,7 +337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -376,7 +360,6 @@
           <caret line="112" column="42" selection-start-line="112" selection-start-column="42" selection-end-line="112" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#2;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#2;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -396,7 +379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -427,7 +409,6 @@
           <caret line="40" column="14" selection-start-line="23" selection-start-column="8" selection-end-line="40" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#2;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#2;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -470,7 +451,6 @@
           <caret line="67" column="18" selection-start-line="64" selection-start-column="12" selection-end-line="67" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#2;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#2;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -513,7 +493,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#2;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#2;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -669,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.84066767">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -677,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.7526555">
           <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,25 +674,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/currentleagues.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.333333">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/currentleagues.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3448819">
-          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="72" column="63" selection-start-line="72" selection-start-column="63" selection-end-line="72" selection-end-column="63" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#2;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#2;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/currentleagues.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25037935">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
