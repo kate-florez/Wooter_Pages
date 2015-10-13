@@ -10,7 +10,6 @@ body {
     min-width: 480px;
     font-family: 'Roboto', sans-serif !important;
     height: 100%;
-    line-height: 0 !important;
 }
 
 .border{
@@ -262,7 +261,7 @@ span.aside_title {
     font-size: 20px;
     /* Change font to Roboto */
     color: rgb(205, 205, 205);
-    /*line-height: 0.673;*/
+    line-height: 0.673;
     -moz-transform: matrix(1.63686716132159,0,0,1.55297975842149,0,0);
     -webkit-transform: matrix(1.63686716132159,0,0,1.55297975842149,0,0);
     -ms-transform: matrix(1.63686716132159,0,0,1.55297975842149,0,0);
@@ -375,7 +374,7 @@ button.btn a {
 
 .main_section3 .leagues_name_section .league_season{
     font-size: 15px;
-    /*line-height: 2.007;*/
+    line-height: 2.007;
 }
 
 .main_section3 .league_status{
@@ -639,7 +638,7 @@ nav .menu ul li .nav_profile_img{
 
 .first .second{
     height: 42px;
-    /*line-height: 42px;*/
+    line-height: 42px;
     -webkit-flex-shrink: 0;
     flex-shrink: 0;
 }
@@ -686,7 +685,7 @@ nav .menu ul li .nav_profile_img{
     color: #183D4E;
     text-decoration: none;
     vertical-align: middle;
-    /*line-height: 34px;*/
+    line-height: 34px;
 }
 
 .aside ul li:hover {
@@ -702,7 +701,7 @@ span.aside_title {
     margin-left: 33px;
     font-size: 20px;
     color: rgb(205, 205, 205);
-    /*line-height: 0.673;*/
+    line-height: 0.673;
     -moz-transform: matrix(1.63686716132159,0,0,1.55297975842149,0,0);
     -webkit-transform: matrix(1.63686716132159,0,0,1.55297975842149,0,0);
     -ms-transform: matrix(1.63686716132159,0,0,1.55297975842149,0,0);
@@ -805,13 +804,13 @@ span.aside_title {
     margin-right: 10px;
     font-size: 18px; /* origin size is 19px*/
     font-weight: 500;
-    /*line-height: 0.937;*/
+    line-height: 0.937;
     color: rgb(74, 74, 74);
 }
 
 .main_section3 .leagues_name_section .league_season{
     font-size: 15px;
-    /*line-height: 2.007;*/
+    line-height: 2.007;
 }
 
 .main_section3 .league_status{
