@@ -288,7 +288,7 @@ nav .menu ul li .nav_profile_img{
     font-family: 'Roboto';
     font-size: 16.667px;
     text-decoration: none;
-    color: #ffffff;
+    color: #BBBBBB;
 }
 
 .first .second:hover{
@@ -298,6 +298,10 @@ nav .menu ul li .nav_profile_img{
 .first .active{
     font-weight: 500;
     border-bottom: 3px solid rgb(187, 187, 187);;
+}
+
+.first .active a {
+    color: #ffffff;
 }
 
 .aside{
