@@ -61,6 +61,65 @@ div#features.col-lg-5 input {
     padding-right: 15px;
 }
 
+#features-title {
+    position: relative;
+    margin-left: 15px;
+}
+
+.checkboxes {
+    width: 20px;
+    height: 20px;
+}
+
+.checkboxe-custom, .checkbox-custom-label, radio-custom, .radio-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.checkbox-custom-label, .radio-custom-label {
+    position: relative;
+    margin-bottom: 5px
+}
+
+.checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
+    content: '';
+    background: #fff;
+    border: 1px solid #000;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+    content: '✓';
+    color: #52c2f8;
+    font-style: 1em;
+    line-height: 1em;
+    font-weight: bold;
+}
+
+.radio-custom + .radio-custom-label:before {
+    background: #ccc;
+}
+
+.checkbox-custom:focus + .checkbox-custom-label, .radio-custom:focus + .radio-custom-label {
+    outline: 1px solid #ddd;
+}
+
+label.checkbox-custom-label {
+    font-weight: normal;
+}
+
+.checkbox-custom, .radio-custom {
+    display: none;
+}
+
 /* From current_leagues.css */
 
 
