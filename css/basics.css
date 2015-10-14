@@ -111,6 +111,10 @@ div.btn-group.pull-right {
     padding-top: 4px;
 }
 
+#edit-button:hover {
+    background-color: rgb(230, 230, 230);
+}
+
 /* delete button*/
 #delete-button, #delete-button_2 {
     border: none;
@@ -121,6 +125,10 @@ div.btn-group.pull-right {
     border-left: 1px solid rgb(184, 184, 184);
     height: 30px;
     padding: 4px 10px 6px 5px;
+}
+
+#delete-button:hover, #delete-button_2:hover {
+    background-color: rgb(230, 230, 230)
 }
 
 #add-venue {
