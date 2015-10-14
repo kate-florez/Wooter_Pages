@@ -124,11 +124,12 @@ div.btn-group.pull-right {
 }
 
 #add-venue {
-    background-color: rgb(43, 181, 246);
+    /*background-color: rgb(43, 181, 246);*/
+    background-color: #3eace2 !important;
     color: white;
     border-radius: 20px;
     width: 20%;
-    background: linear-gradient(rgb(43, 181, 246), rgb(40, 180, 269));
+    /*background: linear-gradient(rgb(43, 181, 246), rgb(40, 180, 269));*/
     padding-left: 2px;
     padding-right: 5px;
     width: 110px;
@@ -145,10 +146,11 @@ span#add-venue-span {
     padding: 6px, 3px, 6px, 3px;
     text-align: center;
 }
-/*
-div#nav-btns {
-    margin-top: 40px;
-}*/
+
+div#nav-btns button.btn{
+    /*margin-top: 40px;*/
+    color: #3eace2;
+}
 
 div#checks {
     border: 1px solid rgb(155, 155, 155);
@@ -170,7 +172,7 @@ div#features.col-lg-5 input {
 #createFeature {
     position: relative;
     left: 5px;
-    background-color: rgb(43, 181, 246);
+    /*background-color: rgb(43, 181, 246);*/
     border-radius: 20px;
     color: white;
     padding: 6px 8px 6px 6px;
@@ -445,16 +447,19 @@ span.aside_title {
 }
 
 #next-button.btn {
-    color: rgb(43, 181, 246);
+    /*color: rgb(43, 181, 246);*/
+    color: #3eace2 !important;
     background-color: white;
-    border: 1px solid rgb(43, 181, 246);
+    /*border: 1px solid rgb(43, 181, 246);*/
+    border: 1px solid #3eace2;
     border-radius: 5px;
     padding: 6px 40px;
     float: right;
 }
 
 button.btn a {
-    color: rgb(43, 181, 246);
+    /*color: rgb(43, 181, 246);*/
+    color: #3eace2;
 }
 
 
