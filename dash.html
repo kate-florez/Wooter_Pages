@@ -17,10 +17,11 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
         <!-- Latest compiled and minified JavaScript -->
-        <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
+
 
         <!--jQuery-->
         <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
         <script src="js/custom.js"></script>
     </head>
 <body style="background-color: #ffffff">
@@ -40,16 +41,34 @@
 
         <div class="menu">
             <ul>
+                <li style="transform: translateY(2px);"><a href="">Notifications</a></li>
                 <li>
-                    <a>
-                        <div class="message_count">
-                            <img src="svg/mail3.svg" alt=""/>
-                            <span>3</span>
-                        </div>
+                    <a href=""><div class="message_img">
+                        <img src="images/notification.png" alt="" style="width: 30px"/>
+                    </div>
                     </a>
                 </li>
-                <li><a>David</a></li>
-                <li><a><img class="nav_profile_img" src="images/profile_image.png" alt=""/></a></li>
+                <li class="message_count"> <span>3</span></li>
+                <li style="transform: translateY(2px);"><a href="">Messages</a></li>
+                <li>
+                    <a href=""><div class="message_img">
+                        <img src="images/newmail.png" alt=""/>
+                    </div>
+                    </a>
+                </li>
+                <li class="message_count"> <span>3</span></li>
+                <li style="transform: translateY(2px);"><a href="">Tumu</a></li>
+                <li><a class="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="nav_profile_img" src="images/pro.png" alt=""/></a>
+
+                    <ul class="dropdown-menu pull-right" style="z-index: 1">
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="#">Your Leagues</a></li>
+                        <li><a href="#">Management</a></li>
+                        <li><a href="#">Account</a></li>
+                        <li><a href="#">Company Info</a></li>
+                        <li><a href="#">Log Out</a></li>
+                    </ul>
+                </li>
             </ul>
         </div>
 
