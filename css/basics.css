@@ -111,6 +111,10 @@ div.btn-group.pull-right {
     padding-top: 4px;
 }
 
+#edit-button:hover {
+    background-color: rgb(230, 230, 230);
+}
+
 /* delete button*/
 #delete-button, #delete-button_2 {
     border: none;
@@ -123,9 +127,13 @@ div.btn-group.pull-right {
     padding: 4px 10px 6px 5px;
 }
 
+#delete-button:hover, #delete-button_2:hover {
+    background-color: rgb(230, 230, 230)
+}
+
 #add-venue {
     /*background-color: rgb(43, 181, 246);*/
-    background-color: #3eace2 !important;
+    background-color: #3eace2;
     color: white;
     border-radius: 20px;
     width: 20%;
@@ -133,6 +141,10 @@ div.btn-group.pull-right {
     padding-left: 2px;
     padding-right: 5px;
     width: 110px;
+}
+
+#add-venue:hover {
+    background-color: #6cc9f4;
 }
 
 #house_img {
@@ -145,11 +157,6 @@ span#add-venue-span {
     position: relative;
     padding: 6px, 3px, 6px, 3px;
     text-align: center;
-}
-
-div#nav-btns button.btn{
-    /*margin-top: 40px;*/
-    color: #3eace2;
 }
 
 div#checks {
@@ -347,7 +354,7 @@ nav .menu ul li .nav_profile_img{
     font-family: 'Roboto';
     font-size: 16.667px;
     text-decoration: none;
-    color: #ffffff;
+    color: #BBBBBB;
 }
 
 .first .second:hover{
@@ -357,6 +364,10 @@ nav .menu ul li .nav_profile_img{
 .first .active{
     font-weight: 500;
     border-bottom: 3px solid rgb(187, 187, 187);;
+}
+
+.first .active a {
+    color: #ffffff;
 }
 
 .aside{
@@ -448,7 +459,7 @@ span.aside_title {
 
 #next-button.btn {
     /*color: rgb(43, 181, 246);*/
-    color: #3eace2 !important;
+    color: #3eace2;
     background-color: white;
     /*border: 1px solid rgb(43, 181, 246);*/
     border: 1px solid #3eace2;
@@ -457,18 +468,15 @@ span.aside_title {
     float: right;
 }
 
-button.btn a {
-    /*color: rgb(43, 181, 246);*/
+#next-button.btn:hover {
+    color: #6cc9f4;
+    border: 1px solid #6cc9f4;
+}
+
+button.btn {
     color: #3eace2;
 }
 
-
-
-
-
-
-
-
-
-
-
+button.btn:hover {
+    color: #6cc9f4;
+}

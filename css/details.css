@@ -52,13 +52,18 @@ div#features.col-lg-5 input {
 #createFeature {
     position: relative;
     left: 5px;
-    background-color: rgb(43, 181, 246);
+    /*background-color: rgb(43, 181, 246);*/
+    background-color: #3eace2;
     border-radius: 20px;
     color: white;
     padding: 6px 8px 6px 6px;
     margin-top: 3px;
     height: 33.5px;
     padding-right: 15px;
+}
+
+#createFeature:hover {
+    background-color: #6cc9f4;
 }
 
 #features-title {
@@ -288,7 +293,7 @@ nav .menu ul li .nav_profile_img{
     font-family: 'Roboto';
     font-size: 16.667px;
     text-decoration: none;
-    color: #ffffff;
+    color: #BBBBBB;
 }
 
 .first .second:hover{
@@ -298,6 +303,10 @@ nav .menu ul li .nav_profile_img{
 .first .active{
     font-weight: 500;
     border-bottom: 3px solid rgb(187, 187, 187);;
+}
+
+.first .active a {
+    color: #ffffff;
 }
 
 .aside{
@@ -388,29 +397,25 @@ span.aside_title {
 }
 
 #next-button.btn {
-    color: rgb(43, 181, 246);
+    /*color: rgb(43, 181, 246);*/
+    color: #3eace2;
     background-color: white;
-    border: 1px solid rgb(43, 181, 246);
+    /*border: 1px solid rgb(43, 181, 246);*/
+    border: 1px solid #3eace2;
     border-radius: 5px;
     padding: 6px 40px;
     float: right;
 }
 
-button.btn a {
-    color: rgb(43, 181, 246);
+#next-button.btn:hover {
+    color: #6cc9f4;
+    border: 1px solid #6cc9f4;
 }
 
+button.btn {
+    color: #3eace2;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+button.btn:hover {
+    color: #6cc9f4;
+}

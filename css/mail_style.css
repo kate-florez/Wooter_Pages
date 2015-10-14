@@ -2,7 +2,7 @@
 	line-height: 1;
 }
 .svhedule {
-	width: 100%; 
+	width: 100%;
 	background: #f5f5f5;
 	border: 1px solid #d7d7d7;
 	overflow: hidden;
@@ -10,7 +10,7 @@
 	float: left;
 }
 #calendar {
-	width: 100%; 
+	width: 100%;
 	margin: 0 auto;
 }
 .title_svhedule {
@@ -131,37 +131,37 @@ td {
 
 
 
-#fuzz{ 
-	position:absolute; 
-	top:0; 
-	left:0; 
-	width:100%; 
-	z-index:100; 
-	background: url('../images/dim.png'); 
-	display:none; 
-	text-align:left; 
+#fuzz{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:100;
+	background: url('../images/dim.png');
+	display:none;
+	text-align:left;
 }
-.msgbox{ 
-	position:absolute; 
-	width:500px; 
-	height:auto; 
-	z-index:200; 
-	border: 1px solid #b8b9bb; 
+.msgbox{
+	position:absolute;
+	width:500px;
+	height:auto;
+	z-index:200;
+	border: 1px solid #b8b9bb;
 	border-radius: 5px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	background: #FFF; 
-	top: 50%; 
-	left: 50%; 
-	margin-top: -100px; 
-	margin-left: -250px; 
+	background: #FFF;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -250px;
 }
 .msgbox img {
-	border:none; 
+	border:none;
 	margin:5px;
 }
-.close{ 
-	top:0px; 
-	float:left; 
+.close{
+	top:0px;
+	float:left;
 	position: absolute;
 }
 .alert {
@@ -176,7 +176,7 @@ td {
 }
 .right_day {
 	width: 70%;
-	border-bottom: 2px solid #e1e1e1; 
+	border-bottom: 2px solid #e1e1e1;
 	font-family:'robotoregular';
 	margin: 1% 5%;
 }
@@ -456,10 +456,10 @@ nav .menu ul li .nav_profile_img{
 .block_box_item {
 	overflow: hidden;
 	width: 97%;
-	border: 1px solid #b8b9bb; 
+	border: 1px solid #b8b9bb;
 	border-radius: 5px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	background: #FFF; 
+	background: #FFF;
 }
 .block_box_item>.left-day {
 	width: 22%;
