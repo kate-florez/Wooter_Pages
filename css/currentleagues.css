@@ -414,15 +414,13 @@ span.aside_title {
     height: inherit;
     margin-right: 12px;
     padding-top: 12px;
-    position: relative;
     -webkit-flex-grow: 0;
     flex-grow: 0;
     -webkit-flex-shrink: 0;
     flex-shrink: 0;
-    position: relative;
     color: #ffffff;
     font-weight: 500;
-    z-index: 0 !important;
+
 }
 
 #current_leagues .leagues_actions{
@@ -434,7 +432,6 @@ span.aside_title {
     height: 29px;
     font-size: 16px;
     letter-spacing: 1.2px;
-    position: absolute;
     right: 0;
     top: 12px;
 }
@@ -452,7 +449,6 @@ span.aside_title {
 }
 
 .main_section3 .leagues .leagues_actions .delete_button, .archive_button{
-    position: absolute;
     bottom: 12px;
     right: 0px;
     border-radius: 7px;
