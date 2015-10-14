@@ -125,7 +125,7 @@ div.btn-group.pull-right {
 
 #add-venue {
     /*background-color: rgb(43, 181, 246);*/
-    background-color: #3eace2 !important;
+    background-color: #3eace2;
     color: white;
     border-radius: 20px;
     width: 20%;
@@ -133,6 +133,10 @@ div.btn-group.pull-right {
     padding-left: 2px;
     padding-right: 5px;
     width: 110px;
+}
+
+#add-venue:hover {
+    background-color: #6cc9f4;
 }
 
 #house_img {
@@ -145,11 +149,6 @@ span#add-venue-span {
     position: relative;
     padding: 6px, 3px, 6px, 3px;
     text-align: center;
-}
-
-div#nav-btns button.btn{
-    /*margin-top: 40px;*/
-    color: #3eace2;
 }
 
 div#checks {
@@ -452,7 +451,7 @@ span.aside_title {
 
 #next-button.btn {
     /*color: rgb(43, 181, 246);*/
-    color: #3eace2 !important;
+    color: #3eace2;
     background-color: white;
     /*border: 1px solid rgb(43, 181, 246);*/
     border: 1px solid #3eace2;
@@ -461,18 +460,15 @@ span.aside_title {
     float: right;
 }
 
-button.btn a {
-    /*color: rgb(43, 181, 246);*/
+#next-button.btn:hover {
+    color: #6cc9f4;
+    border: 1px solid #6cc9f4;
+}
+
+button.btn {
     color: #3eace2;
 }
 
-
-
-
-
-
-
-
-
-
-
+button.btn:hover {
+    color: #6cc9f4;
+}
