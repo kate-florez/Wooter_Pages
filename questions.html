@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Questions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/currentleagues.css"/>
+    <link rel="stylesheet" href="css/currentleagues_resp.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <link rel='stylesheet' href='css/basics.css'>
+    <link rel='stylesheet' href='css/questions.css'>
+
+    <!--fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,900,100,700,500,300' rel='stylesheet' type='text/css'>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--custom javascript files-->
+    <script src="js/custom.js"></script>
+    <script src='js/league_info.js'></script>
+</head>
+<body style="background-color: #f1f1f1;z-index: 0;">
+
+    <header>
+        <nav>
+
+            <div class="hamburger_menu_button">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+            </div>
+
+            <div class="wooter_logo">
+                <a href='dash.html'><img src="images/wooter_logo.png" alt=""/></a>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="">Notifications</a></li>
+                    <li>
+                        <a href=""><div class="message_img">
+                            <img src="svg/mail3.svg" alt=""/>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="message_count"> <span>3</span></li>
+                    <li><a href="">Messages</a></li>
+                    <li>
+                        <a href=""><div class="message_img">
+                                <img src="svg/mail3.svg" alt=""/>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="message_count"> <span>3</span></li>
+                    <li><a href="" style="transform: translateY(-10px);">Tumu</a></li>
+                    <li><a class="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="nav_profile_img" src="images/pro.png" alt=""/></a>
+
+                        <ul class="dropdown-menu pull-right" style="z-index: 1">
+                            <li><a href="#">Dashboard</a></li>
+                            <li><a href="#">Your Leagues</a></li>
+                            <li><a href="#">Management</a></li>
+                            <li><a href="#">Account</a></li>
+                            <li><a href="#">Company Info</a></li>
+                            <li><a href="#">Log Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <div class="mobile_list profile_options_list animated">
+            <div class="first">
+                <div class="second animated"><a href="dash.html">Dashboard</a></div>
+                <div class="second active animated"><a href="currentleagues.html">Your Leagues</a></div>
+                <div class="second animated"><a href="">Management</a></div>
+                <div class="second animated"><a href="payment_methods.html">Account</a></div>
+                <div class="second animated"><a href="">Messages</a></div>
+                <div class="second animated"><a href="">Company</a></div>
+            </div>
+        </div>
+
+        <div class="mobile_list hamburger_menu_list">
+            <ul class="first">
+                <li class="second animated">
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li class="second animated">
+                    <a href="how-it-works.html">How it Works</a>
+                </li>
+
+                <li class="second animated">
+                    <a href="coaches.html">Coaches</a>
+                </li>
+
+                <li class="second animated">
+                    <a href="#contact">Courts</a>
+                </li>
+
+                <li class="second animated">
+                    <a href="leagues.html">Leagues</a>
+                </li>
+
+                <li class="second animated">
+                    <a href="#about">Services</a>
+                </li>
+
+                <li class="second animated">
+                    <a href="#">Press</a>
+                </li>
+
+                <li class="second animated">
+                    <a href="#about">About</a>
+                </li>
+
+                <li class="second animated">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+    <div class="container cl_container" style="background-color: #ffffff">
+
+        <!--left panel-->
+        <div class="aside">
+            <span class='aside_title'>League Info</span>
+               <ul>
+                   <li><a href="">Basics</a></li>
+                   <li><a href="details.html">Details</a></li>
+                   <li><a href="gallery.html">Gallery</a></li>
+               </ul>
+
+            <span class='aside_title'>Registration</span>
+                <ul>
+                    <li><a href=''>Season</a></li>
+                    <li class='active'><a href=''>Forms</a></li>
+                    <li><a href=''>Pricing</a></li>
+                </ul>
+        </div>
+
+        <!--right panel-->
+        <div class="main_section tab-content" >
+
+            <!--current leagues-->
+            <div class="tab-pane active" role="tabpanel" id="current_leagues">
+                <div class="main_section1">
+                    <h2>Create a registration form</h2>
+                    <p>Enter all the questions you would like to ask your players when they register.</p>
+                </div>
+                <hr>
+              
+                <div class="main_section2">
+                    <div class="mainbutton">
+                        <div class="button add_button"><a href="basics.html"><img src="images/add139.png" alt=""><span>Create New Questions</span></a></div>
+                    </div>
+                    <div class="mainbutton">
+                        <div class="button edit_button"><img src="images/cursor.png" alt=""><span>Select sample questions</span></div>
+                    </div>
+                </div>
+
+                <hr>
+             <div class='main_section3'>
+                <div class='venues'>
+                    <h5>Current Quetions</h5>
+                    <ul id='venue-list'>
+                        <li id='venue'>
+                            <strong id='venue-name'>
+                                Time
+                            </strong>
+                            <span id='venue-address'>
+                            How long have you been playing?
+                            </span>
+                            <div class='btn-group hide pull-right' id='venue-btns'>
+                                <button type='button' class='btn' id='edit-button'>
+                                    <span>
+                                        <img src='images/editpic.png' style='width: 25%;'>
+                                        Edit
+                                    </span>
+
+                                </button>
+
+                                <button type='button' class='btn' id='delete-button'>
+                                    <span>
+                                        <img src='images/deletepic.png' style='width: 20%; color: green;'>
+                                        Delete
+                                    </span>
+
+                                </button>
+                            </div>
+                        </li>
+
+                        <li id='venue_2'>
+
+                            <strong>
+                                Allergy
+                            </strong>
+                            <span id='venue-address'>
+                                Do you have any allergies?
+                            </span>
+
+                            <div class='btn-group hide pull-right' id='venue-btns_2'>
+                                <button type='button' class='btn' id='edit-button'>
+                                    <span>
+                                        <img src='images/editpic.png' style='width: 25%;'>
+                                        Edit
+                                    </span>
+
+                                </button>
+
+                                <button type='button' class='btn' id='delete-button_2'>
+                                    <span>
+                                        <img src='images/deletepic.png' style='width: 20%; color: green;'>
+                                        Delete
+                                    </span>
+
+                                </button>
+                            </div>
+
+                        </li>
+
+                         <li id='venue_3'>
+
+                            <strong>
+                                Size
+                            </strong>
+                            <span id='venue-address'>
+                                What is your jersey size?
+                            </span>
+
+                            <div class='btn-group hide pull-right' id='venue-btns_2'>
+                                <button type='button' class='btn' id='edit-button'>
+                                    <span>
+                                        <img src='images/editpic.png' style='width: 25%;'>
+                                        Edit
+                                    </span>
+
+                                </button>
+
+                                <button type='button' class='btn' id='delete-button_2'>
+                                    <span>
+                                        <img src='images/deletepic.png' style='width: 20%; color: green;'>
+                                        Delete
+                                    </span>
+
+                                </button>
+                            </div>
+
+                        </li>
+
+                         <li id='venue_4'>
+
+                            <strong>
+                                Skill
+                            </strong>
+                            <span id='venue-address'>
+                                What is your skill level?
+                            </span>
+
+                            <div class='btn-group hide pull-right' id='venue-btns_2'>
+                                <button type='button' class='btn' id='edit-button'>
+                                    <span>
+                                        <img src='images/editpic.png' style='width: 25%;'>
+                                        Edit
+                                    </span>
+
+                                </button>
+
+                                <button type='button' class='btn' id='delete-button_2'>
+                                    <span>
+                                        <img src='images/deletepic.png' style='width: 20%; color: green;'>
+                                        Delete
+                                    </span>
+
+                                </button>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>         
+
+                <hr>
+
+                <div id='nav-btns'>
+                   <button type='button' class='btn' style='background-color: white; color: rgb(43, 181, 246)'>
+                       Back
+                   </button>
+                   <a href='details.html'><button type='button' class='btn' id='next-button'>
+                       Next
+                   </a></button>
+               </div>
+                </div> <!--end of main section 3-->
+            </div>
+            <!--past leagues-->
+    </div>
+
+</body>
+</html>
