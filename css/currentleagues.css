@@ -147,7 +147,7 @@ nav .menu ul li .message_img img{
 
 nav .menu ul li .notification_img img{
     width: 30px;
-    height: 30px;
+    height: 35px;
     z-index: 0;
 }
 
@@ -478,7 +478,10 @@ span.aside_title {
     padding-bottom: 2px;
     padding-right: 5px;
 }
-
+.dropdown-menu{
+    animation-duration: 0.25s !important;
+    border-radius: 0 !important;
+}
 .dropdown-menu li{
     border-bottom: 1px solid #eee;
     width: calc(100% - 16px) !important;
@@ -492,11 +495,11 @@ span.aside_title {
 .dropdown-menu li a{
     font-family:'Roboto', sans-serif !important;
     /*font-weight: 500 !important;*/
-    font-size: 14px !important;
-    padding: 8px 0px !important;
+    font-size: 16px !important;
     line-height: 1.8;
     color: rgb(86, 90, 92) !important;
     letter-spacing: 1px;
+    /*-webkit-font-smoothing: ;*/
 }
 
 .dropdown-menu:before {
@@ -528,9 +531,27 @@ span.aside_title {
     right:-10.5px !important;
 }
 
+.notification_dropdown li a{
+    padding: 4px 0! important;
+    display: block;
+}
+
+.notification_dropdown img{
+    display: block;
+    float: left;
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    border: 1px solid rgb(43, 181, 246);
+}
+
 .messages_dropdown{
     top:70px !important;
     width: 200px;
+}
+
+.messages_dropdown li a{
+    padding:10px 0 !important;
 }
 
 .transform_text{
